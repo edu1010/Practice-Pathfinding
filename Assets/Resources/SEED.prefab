@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7658799651018533985}
   m_Layer: 0
   m_Name: SEED
-  m_TagString: Untagged
+  m_TagString: SEED
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
