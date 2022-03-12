@@ -9,6 +9,7 @@ TagManager:
   - EXITPOINT
   - EGG
   - SEED
+  - NODES
   layers:
   - Default
   - TransparentFX

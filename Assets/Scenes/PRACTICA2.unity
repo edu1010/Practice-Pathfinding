@@ -3139,8 +3139,8 @@ GameObject:
   - component: {fileID: 392649339}
   - component: {fileID: 392649338}
   m_Layer: 0
-  m_Name: RootNodoes
-  m_TagString: Untagged
+  m_Name: RootNodes
+  m_TagString: NODES
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

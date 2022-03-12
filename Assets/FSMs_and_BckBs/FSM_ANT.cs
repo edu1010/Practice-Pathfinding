@@ -4,16 +4,19 @@ using UnityEngine;
 
 namespace FSM
 {
+    [RequireComponent(typeof(FSM_FIND_PATH))]
     public class FSM_ANT : FiniteStateMachine
     {
         public enum State { INITIAL, WANDER};
 
         public State currentState = State.INITIAL;
 
+        FSM_FIND_PATH fsm_findPath;
+
         // Start is called before the first frame update
         void Start()
         {
-
+            fsm_findPath = GetComponent<FSM_FIND_PATH>();
         }
 
         public override void ReEnter()
@@ -33,6 +36,9 @@ namespace FSM
             switch (currentState)
             {
                 case State.INITIAL:
+                    ChangeState(State.WANDER);
+                    break;
+                case State.WANDER:
 
                     break;
             }
@@ -46,6 +52,9 @@ namespace FSM
                 case State.INITIAL:
 
                     break;
+                case State.WANDER:
+                    fsm_findPath.Exit();
+                    break;
             }
 
             // ENTER STATE LOGIC. Depends on newState
@@ -53,6 +62,9 @@ namespace FSM
             {
                 case State.INITIAL:
 
+                    break;
+                case State.WANDER:
+                    fsm_findPath.ReEnter();
                     break;
             }
 
