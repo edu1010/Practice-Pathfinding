@@ -6,29 +6,20 @@ using Steerings;
 namespace FSM
 {
     [RequireComponent(typeof(LADYBUG_BLACKBOARD))]
-    [RequireComponent(typeof(PathFollowing))]
-    [RequireComponent(typeof(PathFeeder))]
+    [RequireComponent(typeof(FSM_FIND_PATH))]
     public class FSM_LADYBUG : FiniteStateMachine
     {
         public enum State { INITIAL, WANDER, REACH_SEED_OR_EGG};
 
         public State currentState = State.INITIAL;
         LADYBUG_BLACKBOARD blackboard;
-        PathFeeder pathFeeder;
-        public GameObject targets;
-        private GameObject currentTar;
+        FSM_FIND_PATH fsm_findPath;
+
         // Start is called before the first frame update
         void Start()
         {
             blackboard = GetComponent<LADYBUG_BLACKBOARD>();
-            pathFeeder = GetComponent<PathFeeder>();
-            foreach (var variable in targets.GetComponentsInChildren<Transform>())
-            {
-                if (Random.RandomRange(0f, 1f) > 0.4f)
-                {
-                    currentTar = variable.gameObject;
-                }
-            }
+            fsm_findPath = GetComponent<FSM_FIND_PATH>();
         }
 
         public override void ReEnter()
@@ -89,6 +80,9 @@ namespace FSM
                 case State.INITIAL:
 
                     break;
+                case State.WANDER:
+                    fsm_findPath.Exit();
+                    break;
             }
 
             // ENTER STATE LOGIC. Depends on newState
@@ -98,7 +92,7 @@ namespace FSM
 
                     break;
                 case State.WANDER:
-                    pathFeeder.target = currentTar;
+                    fsm_findPath.ReEnter();
                     break;
             }
 
