@@ -7,6 +7,7 @@ namespace FSM
 {
     [RequireComponent(typeof(PathFollowing))]
     [RequireComponent(typeof(PathFeeder))]
+    [RequireComponent(typeof(Seeker))]
     public class FSM_FIND_PATH : FiniteStateMachine
     {
         public enum State { INITIAL, GENERATING, FOLLOWING, TERMINATED };
@@ -22,6 +23,7 @@ namespace FSM
         // Start is called before the first frame update
         void Start()
         {
+            seeker = GetComponent<Seeker>();
             pathFeeder = GetComponent<PathFeeder>();
             foreach (var variable in targets.GetComponentsInChildren<Transform>())
             {
@@ -55,7 +57,7 @@ namespace FSM
             switch (currentState)
             {
                 case State.INITIAL:
-                    ChangeState(State.GENERATING);
+                    ChangeState(State.FOLLOWING);
                     break;
                 case State.GENERATING:
                     
@@ -101,6 +103,7 @@ namespace FSM
                     seeker.StartPath(this.transform.position, blckboard.target.transform.position, OnPathComplete);
                     break;
                 case State.FOLLOWING:
+                    pathFeeder.target = currentTar;
                     break;
                 case State.TERMINATED:
 

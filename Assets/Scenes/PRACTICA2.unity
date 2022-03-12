@@ -3845,6 +3845,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0f1ad7aee2233347aa5695929a73f6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  egg_ant: {fileID: 100018, guid: 933975deb208c8342addc2e75f79916f, type: 3}
+  seed_ant: {fileID: 177466, guid: 73ce87cbcccaf52428b677300dda3d99, type: 3}
 --- !u!212 &418276857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7935,6 +7937,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0f1ad7aee2233347aa5695929a73f6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  egg_ant: {fileID: 100018, guid: 933975deb208c8342addc2e75f79916f, type: 3}
+  seed_ant: {fileID: 177466, guid: 73ce87cbcccaf52428b677300dda3d99, type: 3}
 --- !u!212 &981813530
 SpriteRenderer:
   m_ObjectHideFlags: 0
