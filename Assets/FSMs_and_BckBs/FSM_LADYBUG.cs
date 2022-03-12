@@ -6,18 +6,29 @@ using Steerings;
 namespace FSM
 {
     [RequireComponent(typeof(LADYBUG_BLACKBOARD))]
+    [RequireComponent(typeof(PathFollowing))]
+    [RequireComponent(typeof(PathFeeder))]
     public class FSM_LADYBUG : FiniteStateMachine
     {
         public enum State { INITIAL, WANDER, REACH_SEED_OR_EGG};
 
         public State currentState = State.INITIAL;
-
         LADYBUG_BLACKBOARD blackboard;
-
+        PathFeeder pathFeeder;
+        public GameObject targets;
+        private GameObject currentTar;
         // Start is called before the first frame update
         void Start()
         {
             blackboard = GetComponent<LADYBUG_BLACKBOARD>();
+            pathFeeder = GetComponent<PathFeeder>();
+            foreach (var variable in targets.GetComponentsInChildren<Transform>())
+            {
+                if (Random.RandomRange(0f, 1f) > 0.4f)
+                {
+                    currentTar = variable.gameObject;
+                }
+            }
         }
 
         public override void ReEnter()
@@ -41,6 +52,7 @@ namespace FSM
                     ChangeState(State.WANDER);
                     break;
                 case State.WANDER:
+                    
                     //ORDEN:
                     //egg mas cercano
                     //SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.closerEggDetectionRadius);
@@ -53,7 +65,7 @@ namespace FSM
 
                     // seed random
                     // SensingUtils.FindRandomInstanceWithinRadius(gameObject, "SEED", blackboard.randomSeedDetectionRadius);
-                    
+
 
                     break;
                 case State.REACH_SEED_OR_EGG:
@@ -84,6 +96,9 @@ namespace FSM
             {
                 case State.INITIAL:
 
+                    break;
+                case State.WANDER:
+                    pathFeeder.target = currentTar;
                     break;
             }
 
