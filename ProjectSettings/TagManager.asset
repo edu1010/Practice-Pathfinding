@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SEED_ON_ANT
+  - EGG_ON_ANT
+  - EXITPOINT
+  - EGG
+  - SEED
   layers:
   - Default
   - TransparentFX
