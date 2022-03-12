@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Steerings;
-
+using Pathfinding;
 namespace FSM
 {
     [RequireComponent(typeof(PathFollowing))]
@@ -16,7 +16,9 @@ namespace FSM
         PathFeeder pathFeeder;
         public GameObject targets;
         private GameObject currentTar;
-
+        LADYBUG_BLACKBOARD blckboard;
+        private Path currentPath;
+        private Seeker seeker;
         // Start is called before the first frame update
         void Start()
         {
@@ -53,10 +55,10 @@ namespace FSM
             switch (currentState)
             {
                 case State.INITIAL:
-                    ChangeState(State.FOLLOWING);
+                    ChangeState(State.GENERATING);
                     break;
                 case State.GENERATING:
-
+                    
                     break;
                 case State.FOLLOWING:
 
@@ -76,7 +78,10 @@ namespace FSM
                     
                     break;
                 case State.GENERATING:
-
+                    if (currentPath != null)
+                    {
+                        ChangeState(State.FOLLOWING);
+                    }
                     break;
                 case State.FOLLOWING:
 
@@ -93,10 +98,9 @@ namespace FSM
 
                     break;
                 case State.GENERATING:
-
+                    seeker.StartPath(this.transform.position, blckboard.target.transform.position, OnPathComplete);
                     break;
                 case State.FOLLOWING:
-                    pathFeeder.target = currentTar;
                     break;
                 case State.TERMINATED:
 
@@ -105,5 +109,11 @@ namespace FSM
 
             currentState = newState;
         }
+        public void OnPathComplete(Path p)
+        {
+            // this is a "callback" method. if this method is called, a path has been computed and "stored" in p
+            currentPath = p;
+        }
     }
+
 }
