@@ -7,16 +7,23 @@ namespace FSM
     [RequireComponent(typeof(FSM_FIND_PATH))]
     public class FSM_ANT : FiniteStateMachine
     {
-        public enum State { INITIAL, WANDER};
+        public enum State { INITIAL, GO_TO_DELIVERY_POINT, GO_TO_EXIT_POINT};
 
         public State currentState = State.INITIAL;
 
         FSM_FIND_PATH fsm_findPath;
+        List<GameObject> posibleExitPoints;
+        GameObject definitiveExitPoint;
 
         // Start is called before the first frame update
         void Start()
         {
             fsm_findPath = GetComponent<FSM_FIND_PATH>();
+
+            foreach(GameObject exitPoint in GameObject.FindGameObjectsWithTag("EXITPOINT"))
+            {
+                posibleExitPoints.Add(exitPoint);
+            }
         }
 
         public override void ReEnter()
@@ -36,9 +43,9 @@ namespace FSM
             switch (currentState)
             {
                 case State.INITIAL:
-                    ChangeState(State.WANDER);
+                    ChangeState(State.GO_TO_DELIVERY_POINT);
                     break;
-                case State.WANDER:
+                case State.GO_TO_DELIVERY_POINT:
 
                     break;
             }
@@ -52,8 +59,8 @@ namespace FSM
                 case State.INITIAL:
 
                     break;
-                case State.WANDER:
-                    fsm_findPath.Exit();
+                case State.GO_TO_DELIVERY_POINT:
+                    //fsm_findPath.Exit();
                     break;
             }
 
@@ -63,8 +70,11 @@ namespace FSM
                 case State.INITIAL:
 
                     break;
-                case State.WANDER:
-                    fsm_findPath.ReEnter();
+                case State.GO_TO_DELIVERY_POINT:
+                    //fsm_findPath.ReEnter();
+                    break;
+                case State.GO_TO_EXIT_POINT:
+                    definitiveExitPoint = posibleExitPoints[Random.Range(0, posibleExitPoints.Count)];
                     break;
             }
 

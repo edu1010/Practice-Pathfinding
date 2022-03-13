@@ -760,7 +760,7 @@ MonoBehaviour:
   closerEggDetectionRadius: 50
   randomEggDetectionRadius: 180
   eggDetectionRadiusWhileReachingAnother: 50
-  closeSeedDetectionRadius: 80
+  closerSeedDetectionRadius: 80
   randomSeedDetectionRadius: 125
   eggDetectionRadiusWhileReachingSeed: 25
 --- !u!114 &58812952

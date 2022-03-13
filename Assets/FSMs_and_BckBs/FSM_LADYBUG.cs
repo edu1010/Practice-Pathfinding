@@ -9,7 +9,7 @@ namespace FSM
     [RequireComponent(typeof(FSM_FIND_PATH))]
     public class FSM_LADYBUG : FiniteStateMachine
     {
-        public enum State { INITIAL, WANDER, REACH_SEED_OR_EGG};
+        public enum State { INITIAL, WANDER, REACH_SEED, REACH_EGG, GO_TO_HATCHING_CHAMBER, GO_TO_STORE_CHAMBER};
 
         public State currentState = State.INITIAL;
         LADYBUG_BLACKBOARD blackboard;
@@ -29,8 +29,7 @@ namespace FSM
         }
 
         public override void Exit()
-        {
-            
+        { 
             base.Exit();
         }
 
@@ -43,30 +42,63 @@ namespace FSM
                     ChangeState(State.WANDER);
                     break;
                 case State.WANDER:
-                    
-                    //ORDEN:
-                    //egg mas cercano
-                    //SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.closerEggDetectionRadius);
+                    if(SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.closerEggDetectionRadius))
+                    {
+                        blackboard.target = SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.closerEggDetectionRadius);
+                        ChangeState(State.REACH_EGG);
+                        break;
+                    }
+                    else if(SensingUtils.FindRandomInstanceWithinRadius(gameObject, "EGG", blackboard.randomEggDetectionRadius))
+                    {
+                        blackboard.target = SensingUtils.FindRandomInstanceWithinRadius(gameObject, "EGG", blackboard.randomEggDetectionRadius);
+                        ChangeState(State.REACH_EGG);
+                        break;
+                    }
+                    else if(SensingUtils.FindInstanceWithinRadius(gameObject, "SEED", blackboard.closerSeedDetectionRadius))
+                    {
+                        blackboard.target = SensingUtils.FindInstanceWithinRadius(gameObject, "SEED", blackboard.closerSeedDetectionRadius);
+                        ChangeState(State.REACH_SEED);
+                        break;
+                    }
+                    else if(SensingUtils.FindRandomInstanceWithinRadius(gameObject, "SEED", blackboard.randomSeedDetectionRadius))
+                    {
+                        blackboard.target = SensingUtils.FindRandomInstanceWithinRadius(gameObject, "SEED", blackboard.randomSeedDetectionRadius);
+                        ChangeState(State.REACH_SEED);
+                        break;
+                    }
+                    break;
+                case State.REACH_SEED:
+                    //reached seed
+                    if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) <= blackboard.reachedObjectRadius)
+                    {
+                        ChangeState(State.GO_TO_STORE_CHAMBER); //ns
+                        break;
+                    }
 
-                    // egg random
-                    // SensingUtils.FindRandomInstanceWithinRadius(gameObject, "EGG", blackboard.randomEggDetectionRadius);
+                    if (SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.eggDetectionRadiusWhileReachingSeed))
+                    {
+                        blackboard.target = SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.eggDetectionRadiusWhileReachingSeed);
+                        ChangeState(State.REACH_EGG);
+                        break;
+                    }
+                    break;
+                case State.REACH_EGG:
+                    //reached egg
+                    if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) <= blackboard.reachedObjectRadius)
+                    {
+                        ChangeState(State.GO_TO_HATCHING_CHAMBER); //ns
+                        break;
+                    }
 
-                    // seed más cercana
-                    // SensingUtils.FindInstanceWithinRadius(gameObject, "SEED", blackboard.closeSeedDetectionRadius)
-
-                    // seed random
-                    // SensingUtils.FindRandomInstanceWithinRadius(gameObject, "SEED", blackboard.randomSeedDetectionRadius);
-
+                    if (SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.eggDetectionRadiusWhileReachingAnother))
+                    {
+                        blackboard.target = SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.eggDetectionRadiusWhileReachingAnother);
+                    }
+                    break;
+                case State.GO_TO_HATCHING_CHAMBER:
 
                     break;
-                case State.REACH_SEED_OR_EGG:
-                    // nose si iria mejor hacer dos estados, uno pa cuando va a un egg y otro pa cuando seed o mirar por tag y ale
-
-                    // sensing utils egg mas cerca mientras vas hacia otro egg
-                    // SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.eggDetectionRadiusWhileReachingAnother);
-
-                    // sensing utils egg cerca mientras vas hacia una seed
-                    // SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.eggDetectionRadiusWhileReachingSeed);
+                case State.GO_TO_STORE_CHAMBER:
 
                     break;
             }
@@ -77,22 +109,42 @@ namespace FSM
             // EXIT STATE LOGIC. Depends on current state
             switch (currentState)
             {
-                case State.INITIAL:
-
-                    break;
                 case State.WANDER:
                     fsm_findPath.Exit();
+                    break;
+                case State.REACH_SEED:
+
+                    break;
+                case State.REACH_EGG:
+
+                    break;
+                case State.GO_TO_STORE_CHAMBER:
+
+                    break;
+                case State.GO_TO_HATCHING_CHAMBER:
+
                     break;
             }
 
             // ENTER STATE LOGIC. Depends on newState
             switch (newState)
             {
-                case State.INITIAL:
-
-                    break;
                 case State.WANDER:
                     fsm_findPath.ReEnter();
+                    break;
+                case State.REACH_SEED:
+
+                    break;
+                case State.REACH_EGG:
+
+                    break;
+                case State.GO_TO_STORE_CHAMBER:
+                    blackboard.target.transform.parent = transform;
+                    blackboard.target.tag = "REACHED"; //falta crearlo
+                    break;
+                case State.GO_TO_HATCHING_CHAMBER:
+                    blackboard.target.transform.parent = transform;
+                    blackboard.target.tag = "REACHED"; //falta crearlo
                     break;
             }
 
