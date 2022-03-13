@@ -7,12 +7,14 @@ namespace FSM
 {
     [RequireComponent(typeof(LADYBUG_BLACKBOARD))]
     [RequireComponent(typeof(FSM_FIND_PATH))]
+    [RequireComponent(typeof(FIND_PATH_BLACKBOARD))]
     public class FSM_LADYBUG : FiniteStateMachine
     {
         public enum State { INITIAL, WANDER, REACH_SEED, REACH_EGG, GO_TO_HATCHING_CHAMBER, GO_TO_STORE_CHAMBER};
 
         public State currentState = State.INITIAL;
         LADYBUG_BLACKBOARD blackboard;
+        FIND_PATH_BLACKBOARD findPathBlackboard;
         FSM_FIND_PATH fsm_findPath;
 
         // Start is called before the first frame update
@@ -20,6 +22,7 @@ namespace FSM
         {
             blackboard = GetComponent<LADYBUG_BLACKBOARD>();
             fsm_findPath = GetComponent<FSM_FIND_PATH>();
+            findPathBlackboard = GetComponent<FIND_PATH_BLACKBOARD>();
         }
 
         public override void ReEnter()
@@ -41,8 +44,8 @@ namespace FSM
                 case State.INITIAL:
                     ChangeState(State.WANDER);
                     break;
-                case State.WANDER:
-                    if(SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.closerEggDetectionRadius))
+                case State.WANDER:                    
+                    if (SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.closerEggDetectionRadius))
                     {
                         blackboard.target = SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.closerEggDetectionRadius);
                         ChangeState(State.REACH_EGG);
@@ -131,6 +134,7 @@ namespace FSM
             {
                 case State.WANDER:
                     fsm_findPath.ReEnter();
+                    fsm_findPath.currentWaypoint = findPathBlackboard.GetRandomWanderPoint();
                     break;
                 case State.REACH_SEED:
 

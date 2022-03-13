@@ -8,17 +8,19 @@ namespace FSM
     [RequireComponent(typeof(PathFollowing))]
     [RequireComponent(typeof(PathFeeder))]
     [RequireComponent(typeof(Seeker))]
+    [RequireComponent(typeof(FIND_PATH_BLACKBOARD))]
     public class FSM_FIND_PATH : FiniteStateMachine
     {
         public enum State { INITIAL, GENERATING, FOLLOWING, TERMINATED };
 
         public State currentState = State.INITIAL;
 
-        PathFeeder pathFeeder;
+        FIND_PATH_BLACKBOARD blackboard;
+        public PathFeeder pathFeeder;
         PathFollowing pathfollowing;
-        GameObject currentWaypoint;
+        public GameObject currentWaypoint;
 
-        public GameObject[] wanderPoints;
+        //GameObject[] wanderPoints;
         /*
         PathFeeder pathFeeder;
         public GameObject targets;
@@ -33,7 +35,9 @@ namespace FSM
         {
             //seeker = GetComponent<Seeker>();
             pathfollowing = GetComponent<PathFollowing>();
-            pathFeeder = GetComponent<PathFeeder>();            
+            pathFeeder = GetComponent<PathFeeder>();
+            blackboard = GetComponent<FIND_PATH_BLACKBOARD>();
+            //wanderPoints = GameObject.FindGameObjectsWithTag("WANDER_POINTS");
 
             /*
             foreach (var variable in targets.GetComponentsInChildren<Transform>())
@@ -80,7 +84,7 @@ namespace FSM
                     
                     break;
                 case State.FOLLOWING:
-                    if (SensingUtils.DistanceToTarget(gameObject, currentWaypoint) <= 1) //poner una  variable para pointReachedRadius
+                    if (SensingUtils.DistanceToTarget(gameObject, currentWaypoint) <= blackboard.pointReachedRadius) //poner una  variable para pointReachedRadius
                     {
                         ChangeState(State.INITIAL);
                         break;
@@ -113,7 +117,6 @@ namespace FSM
                     pathFeeder.OnPathComplete(pathfollowing.path);
                     break;
                 case State.TERMINATED:
-
                     break;
             }
 
@@ -127,7 +130,7 @@ namespace FSM
                     //seeker.StartPath(this.transform.position, blckboard.target.transform.position, OnPathComplete);
                     break;
                 case State.FOLLOWING:
-                    currentWaypoint = wanderPoints[Random.Range(0, wanderPoints.Length)];
+                    //currentWaypoint = blackboard.GetRandomWanderPoint();
                     pathFeeder.enabled = true;
                     pathFeeder.target = currentWaypoint;
                     //pathFeeder.target = currentTar;

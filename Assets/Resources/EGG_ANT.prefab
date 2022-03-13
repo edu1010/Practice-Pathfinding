@@ -181,7 +181,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  targets: {fileID: 0}
+  pathFeeder: {fileID: 0}
+  currentWaypoint: {fileID: 0}
 --- !u!114 &4348241708062128446
 MonoBehaviour:
   m_ObjectHideFlags: 0
