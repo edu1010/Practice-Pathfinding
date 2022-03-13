@@ -18,7 +18,7 @@ namespace FSM
         FIND_PATH_BLACKBOARD blackboard;
         public PathFeeder pathFeeder;
         PathFollowing pathfollowing;
-        public GameObject currentWaypoint;
+        public GameObject currentWaypoint;//Esto lo usamos de target entiendo?
 
         //GameObject[] wanderPoints;
         /*
@@ -150,6 +150,14 @@ namespace FSM
             currentPath = p;
         }
         */
+        public void SetTargetToStoreChamber()
+        {
+          currentWaypoint =  blackboard.GetRandomStorePont();
+        }
+        public void SetTargetToHachinChamber()
+        {
+            currentWaypoint = blackboard.GetRandomHachinPoint();
+        }
     }
 
 }

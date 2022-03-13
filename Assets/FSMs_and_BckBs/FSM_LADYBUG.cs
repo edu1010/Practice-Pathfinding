@@ -144,11 +144,13 @@ namespace FSM
                     break;
                 case State.GO_TO_STORE_CHAMBER:
                     blackboard.target.transform.parent = transform;
-                    blackboard.target.tag = "REACHED"; //falta crearlo
+                    blackboard.target.tag = "REACHED";
+                    fsm_findPath.SetTargetToStoreChamber();//target store
                     break;
                 case State.GO_TO_HATCHING_CHAMBER:
                     blackboard.target.transform.parent = transform;
-                    blackboard.target.tag = "REACHED"; //falta crearlo
+                    blackboard.target.tag = "REACHED";
+                    fsm_findPath.SetTargetToHachinChamber();//targer hachin
                     break;
             }
 
