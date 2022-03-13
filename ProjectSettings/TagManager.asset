@@ -13,6 +13,9 @@ TagManager:
   - STORE_CHAMBER
   - HATCHING_CHAMBER
   - WANDER_POINTS
+  - REACHED
+  - EGG_ON_LADYBUG
+  - SEED_ON_LADYBUG
   layers:
   - Default
   - TransparentFX

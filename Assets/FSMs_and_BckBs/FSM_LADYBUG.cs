@@ -99,6 +99,11 @@ namespace FSM
                     }
                     break;
                 case State.GO_TO_HATCHING_CHAMBER:
+                    if (SensingUtils.DistanceToTarget(gameObject, fsm_findPath.currentWaypoint) <= blackboard.reachedObjectRadius)
+                    {
+                        ChangeState(State.WANDER); 
+                        break;
+                    }
 
                     break;
                 case State.GO_TO_STORE_CHAMBER:
@@ -116,16 +121,18 @@ namespace FSM
                     fsm_findPath.Exit();
                     break;
                 case State.REACH_SEED:
-
+                    blackboard.target.tag = "SEED_ON_LADYBUG";
                     break;
                 case State.REACH_EGG:
-
+                    blackboard.target.tag = "EGG_ON_LADYBUG";
                     break;
                 case State.GO_TO_STORE_CHAMBER:
-
+                    blackboard.target.transform.parent = null;
+                    blackboard.target.tag = "REACHED";
                     break;
                 case State.GO_TO_HATCHING_CHAMBER:
-
+                    blackboard.target.transform.parent = null;
+                    blackboard.target.tag = "REACHED";
                     break;
             }
 
@@ -137,20 +144,16 @@ namespace FSM
                     fsm_findPath.currentWaypoint = findPathBlackboard.GetRandomWanderPoint();
                     break;
                 case State.REACH_SEED:
-
                     break;
                 case State.REACH_EGG:
-
                     break;
                 case State.GO_TO_STORE_CHAMBER:
                     blackboard.target.transform.parent = transform;
-                    blackboard.target.tag = "REACHED";
                     fsm_findPath.SetTargetToStoreChamber();//target store
                     break;
                 case State.GO_TO_HATCHING_CHAMBER:
                     blackboard.target.transform.parent = transform;
-                    blackboard.target.tag = "REACHED";
-                    fsm_findPath.SetTargetToHachinChamber();//targer hachin
+                    fsm_findPath.SetTargetToHachinChamber();//target hachin
                     break;
             }
 
