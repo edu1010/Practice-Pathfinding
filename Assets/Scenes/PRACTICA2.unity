@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 3472191}
   m_Layer: 0
   m_Name: 1 (355)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 6358261}
   m_Layer: 0
   m_Name: 1 (269)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 6807728}
   m_Layer: 0
   m_Name: 1 (92)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 7527187}
   m_Layer: 0
   m_Name: 1 (254)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 20670697}
   m_Layer: 0
   m_Name: 1 (428)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 28542778}
   m_Layer: 0
   m_Name: 1 (62)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -320,7 +320,7 @@ GameObject:
   - component: {fileID: 29038272}
   m_Layer: 0
   m_Name: 1 (421)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 29637135}
   m_Layer: 0
   m_Name: 1 (71)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 35007522}
   m_Layer: 0
   m_Name: 1 (116)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 36100231}
   m_Layer: 0
   m_Name: 1 (3)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 36859445}
   m_Layer: 0
   m_Name: 1 (343)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -475,7 +475,7 @@ GameObject:
   - component: {fileID: 37150941}
   m_Layer: 0
   m_Name: 1 (103)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -506,7 +506,7 @@ GameObject:
   - component: {fileID: 37331063}
   m_Layer: 0
   m_Name: 1 (120)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 40782094}
   m_Layer: 0
   m_Name: 1 (406)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -568,7 +568,7 @@ GameObject:
   - component: {fileID: 55777767}
   m_Layer: 0
   m_Name: 1 (328)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -599,7 +599,7 @@ GameObject:
   - component: {fileID: 58805326}
   m_Layer: 0
   m_Name: 1 (94)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -845,7 +845,7 @@ GameObject:
   - component: {fileID: 68692725}
   m_Layer: 0
   m_Name: 1 (110)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -876,7 +876,7 @@ GameObject:
   - component: {fileID: 74443032}
   m_Layer: 0
   m_Name: 1 (462)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -907,7 +907,7 @@ GameObject:
   - component: {fileID: 82559981}
   m_Layer: 0
   m_Name: 1 (290)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -938,7 +938,7 @@ GameObject:
   - component: {fileID: 85390790}
   m_Layer: 0
   m_Name: 1 (398)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -951,7 +951,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 85390789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -73.5, y: 5.35, z: 0}
+  m_LocalPosition: {x: -73.340004, y: 5.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -969,7 +969,7 @@ GameObject:
   - component: {fileID: 86164368}
   m_Layer: 0
   m_Name: 1 (296)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1000,7 +1000,7 @@ GameObject:
   - component: {fileID: 96854711}
   m_Layer: 0
   m_Name: 1 (157)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1031,7 +1031,7 @@ GameObject:
   - component: {fileID: 107691075}
   m_Layer: 0
   m_Name: 1 (465)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1062,7 +1062,7 @@ GameObject:
   - component: {fileID: 110405495}
   m_Layer: 0
   m_Name: 1 (411)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1093,7 +1093,7 @@ GameObject:
   - component: {fileID: 115936367}
   m_Layer: 0
   m_Name: 1 (241)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1124,7 +1124,7 @@ GameObject:
   - component: {fileID: 119050456}
   m_Layer: 0
   m_Name: 1 (261)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1155,7 +1155,7 @@ GameObject:
   - component: {fileID: 121794956}
   m_Layer: 0
   m_Name: 1 (331)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1186,7 +1186,7 @@ GameObject:
   - component: {fileID: 133204900}
   m_Layer: 0
   m_Name: 1 (452)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1217,7 +1217,7 @@ GameObject:
   - component: {fileID: 134078092}
   m_Layer: 0
   m_Name: 1 (95)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1248,7 +1248,7 @@ GameObject:
   - component: {fileID: 134477413}
   m_Layer: 0
   m_Name: 1 (251)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1279,7 +1279,7 @@ GameObject:
   - component: {fileID: 141095909}
   m_Layer: 0
   m_Name: 1 (152)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1310,7 +1310,7 @@ GameObject:
   - component: {fileID: 143419068}
   m_Layer: 0
   m_Name: 1 (46)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1341,7 +1341,7 @@ GameObject:
   - component: {fileID: 150564027}
   m_Layer: 0
   m_Name: 1 (257)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1372,7 +1372,7 @@ GameObject:
   - component: {fileID: 153393251}
   m_Layer: 0
   m_Name: 1 (459)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1403,7 +1403,7 @@ GameObject:
   - component: {fileID: 157428559}
   m_Layer: 0
   m_Name: 1 (382)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1416,7 +1416,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157428558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -65.06, y: -8.64, z: 0}
+  m_LocalPosition: {x: -64.9, y: -8.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1434,7 +1434,7 @@ GameObject:
   - component: {fileID: 160083157}
   m_Layer: 0
   m_Name: 1 (407)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1465,7 +1465,7 @@ GameObject:
   - component: {fileID: 160965820}
   m_Layer: 0
   m_Name: 1 (447)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1496,7 +1496,7 @@ GameObject:
   - component: {fileID: 176187970}
   m_Layer: 0
   m_Name: 1 (126)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1527,7 +1527,7 @@ GameObject:
   - component: {fileID: 190809520}
   m_Layer: 0
   m_Name: 1 (112)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1558,7 +1558,7 @@ GameObject:
   - component: {fileID: 199032098}
   m_Layer: 0
   m_Name: 1 (101)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1589,7 +1589,7 @@ GameObject:
   - component: {fileID: 209773079}
   m_Layer: 0
   m_Name: 1 (376)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1602,7 +1602,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209773078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -72.52, y: -10.4, z: 0}
+  m_LocalPosition: {x: -72.36, y: -10.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1620,7 +1620,7 @@ GameObject:
   - component: {fileID: 214157546}
   m_Layer: 0
   m_Name: 1 (222)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1651,7 +1651,7 @@ GameObject:
   - component: {fileID: 215077715}
   m_Layer: 0
   m_Name: 1 (229)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1682,7 +1682,7 @@ GameObject:
   - component: {fileID: 215970649}
   m_Layer: 0
   m_Name: 1 (326)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 230920634}
   m_Layer: 0
   m_Name: 1 (155)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1744,7 +1744,7 @@ GameObject:
   - component: {fileID: 231323576}
   m_Layer: 0
   m_Name: 1 (345)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1775,7 +1775,7 @@ GameObject:
   - component: {fileID: 231838861}
   m_Layer: 0
   m_Name: 1 (247)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1806,7 +1806,7 @@ GameObject:
   - component: {fileID: 238089576}
   m_Layer: 0
   m_Name: 1 (204)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1837,7 +1837,7 @@ GameObject:
   - component: {fileID: 238403869}
   m_Layer: 0
   m_Name: 1 (206)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1868,7 +1868,7 @@ GameObject:
   - component: {fileID: 239412651}
   m_Layer: 0
   m_Name: 1 (208)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1899,7 +1899,7 @@ GameObject:
   - component: {fileID: 244149708}
   m_Layer: 0
   m_Name: 1 (18)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1930,7 +1930,7 @@ GameObject:
   - component: {fileID: 249334552}
   m_Layer: 0
   m_Name: 1 (147)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1961,7 +1961,7 @@ GameObject:
   - component: {fileID: 250404872}
   m_Layer: 0
   m_Name: 1 (49)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1992,7 +1992,7 @@ GameObject:
   - component: {fileID: 252368162}
   m_Layer: 0
   m_Name: 1 (174)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2023,7 +2023,7 @@ GameObject:
   - component: {fileID: 253602296}
   m_Layer: 0
   m_Name: 1 (189)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2054,7 +2054,7 @@ GameObject:
   - component: {fileID: 255539752}
   m_Layer: 0
   m_Name: 1 (434)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2085,7 +2085,7 @@ GameObject:
   - component: {fileID: 259583412}
   m_Layer: 0
   m_Name: 1 (170)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2116,7 +2116,7 @@ GameObject:
   - component: {fileID: 259938445}
   m_Layer: 0
   m_Name: 1 (119)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2147,7 +2147,7 @@ GameObject:
   - component: {fileID: 266561401}
   m_Layer: 0
   m_Name: 1 (435)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2178,7 +2178,7 @@ GameObject:
   - component: {fileID: 267351040}
   m_Layer: 0
   m_Name: 1 (158)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2209,7 +2209,7 @@ GameObject:
   - component: {fileID: 275347159}
   m_Layer: 0
   m_Name: 1 (54)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2240,7 +2240,7 @@ GameObject:
   - component: {fileID: 279848850}
   m_Layer: 0
   m_Name: 1 (37)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2271,7 +2271,7 @@ GameObject:
   - component: {fileID: 281888902}
   m_Layer: 0
   m_Name: 1 (323)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2302,7 +2302,7 @@ GameObject:
   - component: {fileID: 292750797}
   m_Layer: 0
   m_Name: 1 (191)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2333,7 +2333,7 @@ GameObject:
   - component: {fileID: 295576750}
   m_Layer: 0
   m_Name: 1 (8)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2364,7 +2364,7 @@ GameObject:
   - component: {fileID: 307408740}
   m_Layer: 0
   m_Name: 1 (34)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2395,7 +2395,7 @@ GameObject:
   - component: {fileID: 308080352}
   m_Layer: 0
   m_Name: 1 (306)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2426,7 +2426,7 @@ GameObject:
   - component: {fileID: 312435336}
   m_Layer: 0
   m_Name: 1 (23)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2457,7 +2457,7 @@ GameObject:
   - component: {fileID: 315251791}
   m_Layer: 0
   m_Name: 1 (212)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2488,7 +2488,7 @@ GameObject:
   - component: {fileID: 315792318}
   m_Layer: 0
   m_Name: 1 (396)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2501,7 +2501,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315792317}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -67.57, y: 2.05, z: 0}
+  m_LocalPosition: {x: -67.41, y: 2.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2519,7 +2519,7 @@ GameObject:
   - component: {fileID: 316723612}
   m_Layer: 0
   m_Name: 1 (270)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2550,7 +2550,7 @@ GameObject:
   - component: {fileID: 320487239}
   m_Layer: 0
   m_Name: 1 (145)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2581,7 +2581,7 @@ GameObject:
   - component: {fileID: 328823530}
   m_Layer: 0
   m_Name: 1 (57)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2612,7 +2612,7 @@ GameObject:
   - component: {fileID: 329103103}
   m_Layer: 0
   m_Name: 1 (272)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2643,7 +2643,7 @@ GameObject:
   - component: {fileID: 332048157}
   m_Layer: 0
   m_Name: 1 (375)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2656,7 +2656,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332048156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -69.82, y: -12.63, z: 0}
+  m_LocalPosition: {x: -69.66, y: -12.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2674,7 +2674,7 @@ GameObject:
   - component: {fileID: 333944617}
   m_Layer: 0
   m_Name: 1 (453)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2705,7 +2705,7 @@ GameObject:
   - component: {fileID: 334785301}
   m_Layer: 0
   m_Name: 1 (87)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2736,7 +2736,7 @@ GameObject:
   - component: {fileID: 348937125}
   m_Layer: 0
   m_Name: 1 (427)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2767,7 +2767,7 @@ GameObject:
   - component: {fileID: 348959718}
   m_Layer: 0
   m_Name: 1 (216)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2798,7 +2798,7 @@ GameObject:
   - component: {fileID: 353830450}
   m_Layer: 0
   m_Name: 1 (43)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2829,7 +2829,7 @@ GameObject:
   - component: {fileID: 355306481}
   m_Layer: 0
   m_Name: 1 (385)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2842,7 +2842,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355306480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.11, y: -0.06, z: 0}
+  m_LocalPosition: {x: -61.950005, y: -0.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2860,7 +2860,7 @@ GameObject:
   - component: {fileID: 359478857}
   m_Layer: 0
   m_Name: 1 (108)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2891,7 +2891,7 @@ GameObject:
   - component: {fileID: 359726200}
   m_Layer: 0
   m_Name: 1 (273)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2922,7 +2922,7 @@ GameObject:
   - component: {fileID: 372522675}
   m_Layer: 0
   m_Name: 1 (256)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2953,7 +2953,7 @@ GameObject:
   - component: {fileID: 374934692}
   m_Layer: 0
   m_Name: 1 (21)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2984,7 +2984,7 @@ GameObject:
   - component: {fileID: 376640157}
   m_Layer: 0
   m_Name: 1 (298)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3015,7 +3015,7 @@ GameObject:
   - component: {fileID: 379582943}
   m_Layer: 0
   m_Name: 1 (144)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3046,7 +3046,7 @@ GameObject:
   - component: {fileID: 381241439}
   m_Layer: 0
   m_Name: 1 (433)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3077,7 +3077,7 @@ GameObject:
   - component: {fileID: 383969905}
   m_Layer: 0
   m_Name: 1 (137)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3108,7 +3108,7 @@ GameObject:
   - component: {fileID: 388444533}
   m_Layer: 0
   m_Name: 1 (74)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3656,7 +3656,7 @@ GameObject:
   - component: {fileID: 393363857}
   m_Layer: 0
   m_Name: 1 (374)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3669,7 +3669,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393363856}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -60.4, y: 3.56, z: 0}
+  m_LocalPosition: {x: -60.240005, y: 3.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3687,7 +3687,7 @@ GameObject:
   - component: {fileID: 400683832}
   m_Layer: 0
   m_Name: 1 (366)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3700,7 +3700,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400683831}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -60.33, y: -8.53, z: 0}
+  m_LocalPosition: {x: -60.170006, y: -8.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3718,7 +3718,7 @@ GameObject:
   - component: {fileID: 401997937}
   m_Layer: 0
   m_Name: 1 (330)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3749,7 +3749,7 @@ GameObject:
   - component: {fileID: 409845024}
   m_Layer: 0
   m_Name: 1 (471)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3780,7 +3780,7 @@ GameObject:
   - component: {fileID: 415744342}
   m_Layer: 0
   m_Name: 1 (195)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3910,7 +3910,7 @@ GameObject:
   - component: {fileID: 418340389}
   m_Layer: 0
   m_Name: 1 (146)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3941,7 +3941,7 @@ GameObject:
   - component: {fileID: 425664466}
   m_Layer: 0
   m_Name: 1 (450)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3972,7 +3972,7 @@ GameObject:
   - component: {fileID: 426520795}
   m_Layer: 0
   m_Name: 1 (338)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4003,7 +4003,7 @@ GameObject:
   - component: {fileID: 431482122}
   m_Layer: 0
   m_Name: 1 (151)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4034,7 +4034,7 @@ GameObject:
   - component: {fileID: 440656484}
   m_Layer: 0
   m_Name: 1 (444)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4065,7 +4065,7 @@ GameObject:
   - component: {fileID: 447333559}
   m_Layer: 0
   m_Name: 1 (370)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4078,7 +4078,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447333558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.94, y: 4.71, z: 0}
+  m_LocalPosition: {x: -57.780006, y: 4.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4096,7 +4096,7 @@ GameObject:
   - component: {fileID: 452170517}
   m_Layer: 0
   m_Name: 1 (276)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4127,7 +4127,7 @@ GameObject:
   - component: {fileID: 452387169}
   m_Layer: 0
   m_Name: 1 (248)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4158,7 +4158,7 @@ GameObject:
   - component: {fileID: 453620482}
   m_Layer: 0
   m_Name: 1 (386)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4171,7 +4171,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 453620481}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -63.4, y: 2.41, z: 0}
+  m_LocalPosition: {x: -63.240005, y: 2.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4189,7 +4189,7 @@ GameObject:
   - component: {fileID: 456234822}
   m_Layer: 0
   m_Name: 1 (185)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4220,7 +4220,7 @@ GameObject:
   - component: {fileID: 458028980}
   m_Layer: 0
   m_Name: 1 (228)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4251,7 +4251,7 @@ GameObject:
   - component: {fileID: 461409709}
   m_Layer: 0
   m_Name: 1 (314)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4282,7 +4282,7 @@ GameObject:
   - component: {fileID: 465026299}
   m_Layer: 0
   m_Name: 1 (97)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4313,7 +4313,7 @@ GameObject:
   - component: {fileID: 471191731}
   m_Layer: 0
   m_Name: 1 (220)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4344,7 +4344,7 @@ GameObject:
   - component: {fileID: 485458041}
   m_Layer: 0
   m_Name: 1 (422)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4375,7 +4375,7 @@ GameObject:
   - component: {fileID: 495794756}
   m_Layer: 0
   m_Name: 1 (308)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4406,7 +4406,7 @@ GameObject:
   - component: {fileID: 496723947}
   m_Layer: 0
   m_Name: 1 (467)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4437,7 +4437,7 @@ GameObject:
   - component: {fileID: 497891783}
   m_Layer: 0
   m_Name: 1 (415)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4468,7 +4468,7 @@ GameObject:
   - component: {fileID: 498384187}
   m_Layer: 0
   m_Name: 1 (7)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4499,7 +4499,7 @@ GameObject:
   - component: {fileID: 504181742}
   m_Layer: 0
   m_Name: 1 (142)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4530,7 +4530,7 @@ GameObject:
   - component: {fileID: 515614353}
   m_Layer: 0
   m_Name: 1 (86)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4561,7 +4561,7 @@ GameObject:
   - component: {fileID: 515835454}
   m_Layer: 0
   m_Name: 1 (250)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4592,7 +4592,7 @@ GameObject:
   - component: {fileID: 522037952}
   m_Layer: 0
   m_Name: 1 (136)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4623,7 +4623,7 @@ GameObject:
   - component: {fileID: 531487673}
   m_Layer: 0
   m_Name: 1 (282)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4654,7 +4654,7 @@ GameObject:
   - component: {fileID: 532907389}
   m_Layer: 0
   m_Name: 1 (184)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4685,7 +4685,7 @@ GameObject:
   - component: {fileID: 533882910}
   m_Layer: 0
   m_Name: 1 (371)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4698,7 +4698,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533882909}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -59.62, y: -5.27, z: 0}
+  m_LocalPosition: {x: -59.46, y: -5.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4716,7 +4716,7 @@ GameObject:
   - component: {fileID: 538795909}
   m_Layer: 0
   m_Name: 1 (369)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4729,7 +4729,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538795908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -56.54, y: 1.73, z: 0}
+  m_LocalPosition: {x: -56.380005, y: 1.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4747,7 +4747,7 @@ GameObject:
   - component: {fileID: 556547417}
   m_Layer: 0
   m_Name: 1 (160)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4778,7 +4778,7 @@ GameObject:
   - component: {fileID: 556574143}
   m_Layer: 0
   m_Name: 1 (329)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4809,7 +4809,7 @@ GameObject:
   - component: {fileID: 558759066}
   m_Layer: 0
   m_Name: 1 (318)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4840,7 +4840,7 @@ GameObject:
   - component: {fileID: 561215337}
   m_Layer: 0
   m_Name: 1 (363)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4853,7 +4853,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561215336}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -67.94, y: -14.81, z: 0}
+  m_LocalPosition: {x: -67.78001, y: -14.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4871,7 +4871,7 @@ GameObject:
   - component: {fileID: 561523204}
   m_Layer: 0
   m_Name: 1 (199)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4902,7 +4902,7 @@ GameObject:
   - component: {fileID: 564422057}
   m_Layer: 0
   m_Name: 1 (64)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4933,7 +4933,7 @@ GameObject:
   - component: {fileID: 580923616}
   m_Layer: 0
   m_Name: 1 (75)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4964,7 +4964,7 @@ GameObject:
   - component: {fileID: 583123010}
   m_Layer: 0
   m_Name: 1 (72)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4995,7 +4995,7 @@ GameObject:
   - component: {fileID: 585337337}
   m_Layer: 0
   m_Name: 1 (201)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5026,7 +5026,7 @@ GameObject:
   - component: {fileID: 586439776}
   m_Layer: 0
   m_Name: 1 (334)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5057,7 +5057,7 @@ GameObject:
   - component: {fileID: 592120730}
   m_Layer: 0
   m_Name: 1 (305)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5088,7 +5088,7 @@ GameObject:
   - component: {fileID: 595234607}
   m_Layer: 0
   m_Name: 1 (279)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5101,7 +5101,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 595234606}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -58.55, y: -11.85, z: 0}
+  m_LocalPosition: {x: -58.390007, y: -11.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5119,7 +5119,7 @@ GameObject:
   - component: {fileID: 603272661}
   m_Layer: 0
   m_Name: 1 (239)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5150,7 +5150,7 @@ GameObject:
   - component: {fileID: 613104342}
   m_Layer: 0
   m_Name: 1 (218)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5181,7 +5181,7 @@ GameObject:
   - component: {fileID: 613259443}
   m_Layer: 0
   m_Name: 1 (159)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5212,7 +5212,7 @@ GameObject:
   - component: {fileID: 617027321}
   m_Layer: 0
   m_Name: 1 (20)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5243,7 +5243,7 @@ GameObject:
   - component: {fileID: 628584620}
   m_Layer: 0
   m_Name: 1 (93)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5274,7 +5274,7 @@ GameObject:
   - component: {fileID: 634250796}
   m_Layer: 0
   m_Name: 1 (79)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5305,7 +5305,7 @@ GameObject:
   - component: {fileID: 639316563}
   m_Layer: 0
   m_Name: 1 (380)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5318,7 +5318,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 639316562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -73.81, y: 1.77, z: 0}
+  m_LocalPosition: {x: -73.65, y: 1.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5336,7 +5336,7 @@ GameObject:
   - component: {fileID: 645592138}
   m_Layer: 0
   m_Name: 1 (390)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5349,7 +5349,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645592137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -69.22, y: -7.53, z: 0}
+  m_LocalPosition: {x: -69.060005, y: -7.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5367,7 +5367,7 @@ GameObject:
   - component: {fileID: 650806510}
   m_Layer: 0
   m_Name: 1 (38)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5398,7 +5398,7 @@ GameObject:
   - component: {fileID: 652930777}
   m_Layer: 0
   m_Name: 1 (466)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5429,7 +5429,7 @@ GameObject:
   - component: {fileID: 653158347}
   m_Layer: 0
   m_Name: 1 (217)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5460,7 +5460,7 @@ GameObject:
   - component: {fileID: 655833240}
   m_Layer: 0
   m_Name: 1 (260)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5491,7 +5491,7 @@ GameObject:
   - component: {fileID: 665795368}
   m_Layer: 0
   m_Name: 1 (104)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5522,7 +5522,7 @@ GameObject:
   - component: {fileID: 671856132}
   m_Layer: 0
   m_Name: 1 (424)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5553,7 +5553,7 @@ GameObject:
   - component: {fileID: 677756096}
   m_Layer: 0
   m_Name: 1 (148)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5689,7 +5689,7 @@ GameObject:
   - component: {fileID: 688134024}
   m_Layer: 0
   m_Name: 1 (416)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5720,7 +5720,7 @@ GameObject:
   - component: {fileID: 688165499}
   m_Layer: 0
   m_Name: 1 (190)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5751,7 +5751,7 @@ GameObject:
   - component: {fileID: 696249752}
   m_Layer: 0
   m_Name: 1 (205)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5782,7 +5782,7 @@ GameObject:
   - component: {fileID: 698093534}
   m_Layer: 0
   m_Name: 1 (399)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5795,7 +5795,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698093533}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -71.32, y: 7.64, z: 0}
+  m_LocalPosition: {x: -71.16, y: 7.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5813,7 +5813,7 @@ GameObject:
   - component: {fileID: 705040886}
   m_Layer: 0
   m_Name: 1 (408)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5844,7 +5844,7 @@ GameObject:
   - component: {fileID: 710755491}
   m_Layer: 0
   m_Name: 1 (364)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5857,7 +5857,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710755490}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -65.79, y: -12.24, z: 0}
+  m_LocalPosition: {x: -65.630005, y: -12.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5959,7 +5959,7 @@ GameObject:
   - component: {fileID: 714880366}
   m_Layer: 0
   m_Name: 1 (445)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5990,7 +5990,7 @@ GameObject:
   - component: {fileID: 730665946}
   m_Layer: 0
   m_Name: 1 (327)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6021,7 +6021,7 @@ GameObject:
   - component: {fileID: 734896788}
   m_Layer: 0
   m_Name: 1 (341)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6052,7 +6052,7 @@ GameObject:
   - component: {fileID: 737266447}
   m_Layer: 0
   m_Name: 1 (200)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6083,7 +6083,7 @@ GameObject:
   - component: {fileID: 740332061}
   m_Layer: 0
   m_Name: 1 (397)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6096,7 +6096,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740332060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -71.21, y: 3.7, z: 0}
+  m_LocalPosition: {x: -71.05, y: 3.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6114,7 +6114,7 @@ GameObject:
   - component: {fileID: 740343083}
   m_Layer: 0
   m_Name: 1 (414)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6145,7 +6145,7 @@ GameObject:
   - component: {fileID: 744729571}
   m_Layer: 0
   m_Name: 1 (418)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6176,7 +6176,7 @@ GameObject:
   - component: {fileID: 745486803}
   m_Layer: 0
   m_Name: 1 (176)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6207,7 +6207,7 @@ GameObject:
   - component: {fileID: 759206075}
   m_Layer: 0
   m_Name: 1 (340)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6238,7 +6238,7 @@ GameObject:
   - component: {fileID: 761660866}
   m_Layer: 0
   m_Name: 1 (357)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6269,7 +6269,7 @@ GameObject:
   - component: {fileID: 781866842}
   m_Layer: 0
   m_Name: 1 (311)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6300,7 +6300,7 @@ GameObject:
   - component: {fileID: 782532757}
   m_Layer: 0
   m_Name: 1 (161)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6331,7 +6331,7 @@ GameObject:
   - component: {fileID: 794321561}
   m_Layer: 0
   m_Name: 1 (15)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6362,7 +6362,7 @@ GameObject:
   - component: {fileID: 801511380}
   m_Layer: 0
   m_Name: 1 (70)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6393,7 +6393,7 @@ GameObject:
   - component: {fileID: 804557668}
   m_Layer: 0
   m_Name: 1 (410)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6424,7 +6424,7 @@ GameObject:
   - component: {fileID: 805893373}
   m_Layer: 0
   m_Name: 1 (301)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6455,7 +6455,7 @@ GameObject:
   - component: {fileID: 807295996}
   m_Layer: 0
   m_Name: 1 (426)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6486,7 +6486,7 @@ GameObject:
   - component: {fileID: 809222297}
   m_Layer: 0
   m_Name: 1 (77)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6517,7 +6517,7 @@ GameObject:
   - component: {fileID: 813667900}
   m_Layer: 0
   m_Name: 1 (317)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6548,7 +6548,7 @@ GameObject:
   - component: {fileID: 828916428}
   m_Layer: 0
   m_Name: 1 (310)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6579,7 +6579,7 @@ GameObject:
   - component: {fileID: 831661989}
   m_Layer: 0
   m_Name: 1 (264)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6610,7 +6610,7 @@ GameObject:
   - component: {fileID: 832459139}
   m_Layer: 0
   m_Name: 1 (233)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6641,7 +6641,7 @@ GameObject:
   - component: {fileID: 832775529}
   m_Layer: 0
   m_Name: 1 (172)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6672,7 +6672,7 @@ GameObject:
   - component: {fileID: 832858877}
   m_Layer: 0
   m_Name: 1 (441)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6703,7 +6703,7 @@ GameObject:
   - component: {fileID: 833810877}
   m_Layer: 0
   m_Name: 1 (193)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6734,7 +6734,7 @@ GameObject:
   - component: {fileID: 836018416}
   m_Layer: 0
   m_Name: 1 (316)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6765,7 +6765,7 @@ GameObject:
   - component: {fileID: 853957580}
   m_Layer: 0
   m_Name: 1 (249)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6796,7 +6796,7 @@ GameObject:
   - component: {fileID: 854590111}
   m_Layer: 0
   m_Name: 1 (303)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6827,7 +6827,7 @@ GameObject:
   - component: {fileID: 856140345}
   m_Layer: 0
   m_Name: 1 (56)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6858,7 +6858,7 @@ GameObject:
   - component: {fileID: 863281093}
   m_Layer: 0
   m_Name: 1 (232)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6889,7 +6889,7 @@ GameObject:
   - component: {fileID: 866819527}
   m_Layer: 0
   m_Name: 1 (12)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6920,7 +6920,7 @@ GameObject:
   - component: {fileID: 868000526}
   m_Layer: 0
   m_Name: 1 (384)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6933,7 +6933,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 868000525}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.35, y: -3.23, z: 0}
+  m_LocalPosition: {x: -62.190002, y: -3.23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6951,7 +6951,7 @@ GameObject:
   - component: {fileID: 870371569}
   m_Layer: 0
   m_Name: 1 (464)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6982,7 +6982,7 @@ GameObject:
   - component: {fileID: 871746669}
   m_Layer: 0
   m_Name: 1 (183)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7013,7 +7013,7 @@ GameObject:
   - component: {fileID: 874804613}
   m_Layer: 0
   m_Name: 1 (102)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7044,7 +7044,7 @@ GameObject:
   - component: {fileID: 878431844}
   m_Layer: 0
   m_Name: 1 (211)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7075,7 +7075,7 @@ GameObject:
   - component: {fileID: 879871570}
   m_Layer: 0
   m_Name: 1 (440)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7106,7 +7106,7 @@ GameObject:
   - component: {fileID: 882167665}
   m_Layer: 0
   m_Name: 1 (138)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7137,7 +7137,7 @@ GameObject:
   - component: {fileID: 891652303}
   m_Layer: 0
   m_Name: 1 (132)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7168,7 +7168,7 @@ GameObject:
   - component: {fileID: 896222272}
   m_Layer: 0
   m_Name: 1 (231)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7199,7 +7199,7 @@ GameObject:
   - component: {fileID: 897629665}
   m_Layer: 0
   m_Name: 1 (448)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7314,7 +7314,7 @@ GameObject:
   - component: {fileID: 899128376}
   m_Layer: 0
   m_Name: 1 (140)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7345,7 +7345,7 @@ GameObject:
   - component: {fileID: 904208529}
   m_Layer: 0
   m_Name: 1 (291)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7376,7 +7376,7 @@ GameObject:
   - component: {fileID: 909099501}
   m_Layer: 0
   m_Name: 1 (283)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7407,7 +7407,7 @@ GameObject:
   - component: {fileID: 909879635}
   m_Layer: 0
   m_Name: 1 (237)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7438,7 +7438,7 @@ GameObject:
   - component: {fileID: 910822980}
   m_Layer: 0
   m_Name: 1 (347)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7469,7 +7469,7 @@ GameObject:
   - component: {fileID: 916273264}
   m_Layer: 0
   m_Name: 1 (219)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7500,7 +7500,7 @@ GameObject:
   - component: {fileID: 917406982}
   m_Layer: 0
   m_Name: 1 (449)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7531,7 +7531,7 @@ GameObject:
   - component: {fileID: 918243482}
   m_Layer: 0
   m_Name: 1 (403)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7544,7 +7544,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918243481}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -60.27, y: 7.06, z: 0}
+  m_LocalPosition: {x: -60.11001, y: 7.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7562,7 +7562,7 @@ GameObject:
   - component: {fileID: 921532798}
   m_Layer: 0
   m_Name: 1 (214)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7593,7 +7593,7 @@ GameObject:
   - component: {fileID: 924366612}
   m_Layer: 0
   m_Name: 1 (192)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7624,7 +7624,7 @@ GameObject:
   - component: {fileID: 925801416}
   m_Layer: 0
   m_Name: 1 (361)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7655,7 +7655,7 @@ GameObject:
   - component: {fileID: 932621857}
   m_Layer: 0
   m_Name: 1 (221)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7686,7 +7686,7 @@ GameObject:
   - component: {fileID: 938729910}
   m_Layer: 0
   m_Name: 1 (25)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7717,7 +7717,7 @@ GameObject:
   - component: {fileID: 938910625}
   m_Layer: 0
   m_Name: 1 (284)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7748,7 +7748,7 @@ GameObject:
   - component: {fileID: 941343146}
   m_Layer: 0
   m_Name: 1 (113)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7779,7 +7779,7 @@ GameObject:
   - component: {fileID: 953321820}
   m_Layer: 0
   m_Name: 1 (167)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7810,7 +7810,7 @@ GameObject:
   - component: {fileID: 957567035}
   m_Layer: 0
   m_Name: 1 (362)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7841,7 +7841,7 @@ GameObject:
   - component: {fileID: 962825198}
   m_Layer: 0
   m_Name: 1 (107)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7872,7 +7872,7 @@ GameObject:
   - component: {fileID: 964973210}
   m_Layer: 0
   m_Name: 1 (121)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8002,7 +8002,7 @@ GameObject:
   - component: {fileID: 983237676}
   m_Layer: 0
   m_Name: 1 (47)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8033,7 +8033,7 @@ GameObject:
   - component: {fileID: 985923466}
   m_Layer: 0
   m_Name: 1 (4)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8064,7 +8064,7 @@ GameObject:
   - component: {fileID: 992609179}
   m_Layer: 0
   m_Name: 1 (177)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8095,7 +8095,7 @@ GameObject:
   - component: {fileID: 1003221892}
   m_Layer: 0
   m_Name: 1 (319)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8126,7 +8126,7 @@ GameObject:
   - component: {fileID: 1007814889}
   m_Layer: 0
   m_Name: 1 (339)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8157,7 +8157,7 @@ GameObject:
   - component: {fileID: 1013041300}
   m_Layer: 0
   m_Name: 1 (50)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8188,7 +8188,7 @@ GameObject:
   - component: {fileID: 1025563081}
   m_Layer: 0
   m_Name: 1 (225)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8219,7 +8219,7 @@ GameObject:
   - component: {fileID: 1033013031}
   m_Layer: 0
   m_Name: 1 (286)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8250,7 +8250,7 @@ GameObject:
   - component: {fileID: 1036636030}
   m_Layer: 0
   m_Name: 1 (82)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8281,7 +8281,7 @@ GameObject:
   - component: {fileID: 1039828693}
   m_Layer: 0
   m_Name: 1 (348)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8312,7 +8312,7 @@ GameObject:
   - component: {fileID: 1041218719}
   m_Layer: 0
   m_Name: 1 (22)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8343,7 +8343,7 @@ GameObject:
   - component: {fileID: 1055267202}
   m_Layer: 0
   m_Name: 1 (389)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8356,7 +8356,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055267201}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -66.34, y: -5.88, z: 0}
+  m_LocalPosition: {x: -66.18, y: -5.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8374,7 +8374,7 @@ GameObject:
   - component: {fileID: 1063896629}
   m_Layer: 0
   m_Name: 1 (226)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8405,7 +8405,7 @@ GameObject:
   - component: {fileID: 1070700066}
   m_Layer: 0
   m_Name: 1 (36)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8436,7 +8436,7 @@ GameObject:
   - component: {fileID: 1070822563}
   m_Layer: 0
   m_Name: 1 (430)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8467,7 +8467,7 @@ GameObject:
   - component: {fileID: 1079430863}
   m_Layer: 0
   m_Name: 1 (285)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8498,7 +8498,7 @@ GameObject:
   - component: {fileID: 1089626333}
   m_Layer: 0
   m_Name: 1 (32)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8529,7 +8529,7 @@ GameObject:
   - component: {fileID: 1092962963}
   m_Layer: 0
   m_Name: 1 (436)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8560,7 +8560,7 @@ GameObject:
   - component: {fileID: 1093488817}
   m_Layer: 0
   m_Name: 1 (224)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8591,7 +8591,7 @@ GameObject:
   - component: {fileID: 1097543163}
   m_Layer: 0
   m_Name: 1 (393)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8604,7 +8604,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097543162}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -71.92, y: -2.59, z: 0}
+  m_LocalPosition: {x: -71.76, y: -2.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8622,7 +8622,7 @@ GameObject:
   - component: {fileID: 1102578258}
   m_Layer: 0
   m_Name: 1 (320)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8653,7 +8653,7 @@ GameObject:
   - component: {fileID: 1104975519}
   m_Layer: 0
   m_Name: 1 (88)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8684,7 +8684,7 @@ GameObject:
   - component: {fileID: 1116505591}
   m_Layer: 0
   m_Name: 1 (292)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8715,7 +8715,7 @@ GameObject:
   - component: {fileID: 1118172598}
   m_Layer: 0
   m_Name: 1 (6)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8746,7 +8746,7 @@ GameObject:
   - component: {fileID: 1127082779}
   m_Layer: 0
   m_Name: 1 (253)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8777,7 +8777,7 @@ GameObject:
   - component: {fileID: 1130389822}
   m_Layer: 0
   m_Name: 1 (350)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8808,7 +8808,7 @@ GameObject:
   - component: {fileID: 1131482793}
   m_Layer: 0
   m_Name: 1 (139)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8839,7 +8839,7 @@ GameObject:
   - component: {fileID: 1136202627}
   m_Layer: 0
   m_Name: 1 (367)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8852,7 +8852,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136202626}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -56.69, y: -5.29, z: 0}
+  m_LocalPosition: {x: -56.530006, y: -5.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8870,7 +8870,7 @@ GameObject:
   - component: {fileID: 1136988031}
   m_Layer: 0
   m_Name: 1 (312)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8901,7 +8901,7 @@ GameObject:
   - component: {fileID: 1142386762}
   m_Layer: 0
   m_Name: 1 (61)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8932,7 +8932,7 @@ GameObject:
   - component: {fileID: 1147098179}
   m_Layer: 0
   m_Name: 1 (182)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8963,7 +8963,7 @@ GameObject:
   - component: {fileID: 1149163109}
   m_Layer: 0
   m_Name: 1 (354)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8994,7 +8994,7 @@ GameObject:
   - component: {fileID: 1158637670}
   m_Layer: 0
   m_Name: 1 (400)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9007,7 +9007,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158637669}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -69.14, y: 5.82, z: 0}
+  m_LocalPosition: {x: -68.98, y: 5.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9025,7 +9025,7 @@ GameObject:
   - component: {fileID: 1160274851}
   m_Layer: 0
   m_Name: 1 (271)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9056,7 +9056,7 @@ GameObject:
   - component: {fileID: 1162074540}
   m_Layer: 0
   m_Name: 1 (156)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9087,7 +9087,7 @@ GameObject:
   - component: {fileID: 1179763388}
   m_Layer: 0
   m_Name: 1 (244)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9118,7 +9118,7 @@ GameObject:
   - component: {fileID: 1181181262}
   m_Layer: 0
   m_Name: 1 (52)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9149,7 +9149,7 @@ GameObject:
   - component: {fileID: 1181571427}
   m_Layer: 0
   m_Name: 1 (402)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9162,7 +9162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181571426}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.68, y: 5.59, z: 0}
+  m_LocalPosition: {x: -62.520004, y: 5.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9180,7 +9180,7 @@ GameObject:
   - component: {fileID: 1184344262}
   m_Layer: 0
   m_Name: 1 (349)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9211,7 +9211,7 @@ GameObject:
   - component: {fileID: 1184683079}
   m_Layer: 0
   m_Name: 1 (60)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9242,7 +9242,7 @@ GameObject:
   - component: {fileID: 1185896736}
   m_Layer: 0
   m_Name: 1 (134)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9273,7 +9273,7 @@ GameObject:
   - component: {fileID: 1190563418}
   m_Layer: 0
   m_Name: 1 (409)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9304,7 +9304,7 @@ GameObject:
   - component: {fileID: 1197623578}
   m_Layer: 0
   m_Name: 1 (392)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9317,7 +9317,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197623577}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -69.22, y: -4, z: 0}
+  m_LocalPosition: {x: -69.060005, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9335,7 +9335,7 @@ GameObject:
   - component: {fileID: 1201638097}
   m_Layer: 0
   m_Name: 1 (133)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9366,7 +9366,7 @@ GameObject:
   - component: {fileID: 1201640237}
   m_Layer: 0
   m_Name: 1 (124)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9397,7 +9397,7 @@ GameObject:
   - component: {fileID: 1202019082}
   m_Layer: 0
   m_Name: 1 (243)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9428,7 +9428,7 @@ GameObject:
   - component: {fileID: 1209673257}
   m_Layer: 0
   m_Name: 1 (325)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9459,7 +9459,7 @@ GameObject:
   - component: {fileID: 1210064726}
   m_Layer: 0
   m_Name: 1 (27)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9490,7 +9490,7 @@ GameObject:
   - component: {fileID: 1220497417}
   m_Layer: 0
   m_Name: 1 (53)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9521,7 +9521,7 @@ GameObject:
   - component: {fileID: 1236902078}
   m_Layer: 0
   m_Name: 1 (378)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9534,7 +9534,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1236902077}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -74.87, y: -4.46, z: 0}
+  m_LocalPosition: {x: -74.71001, y: -4.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9552,7 +9552,7 @@ GameObject:
   - component: {fileID: 1247715726}
   m_Layer: 0
   m_Name: 1 (14)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9583,7 +9583,7 @@ GameObject:
   - component: {fileID: 1249267510}
   m_Layer: 0
   m_Name: 1 (68)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9614,7 +9614,7 @@ GameObject:
   - component: {fileID: 1250908980}
   m_Layer: 0
   m_Name: 1 (30)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9645,7 +9645,7 @@ GameObject:
   - component: {fileID: 1257421449}
   m_Layer: 0
   m_Name: 1 (130)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9676,7 +9676,7 @@ GameObject:
   - component: {fileID: 1263386452}
   m_Layer: 0
   m_Name: 1 (215)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9707,7 +9707,7 @@ GameObject:
   - component: {fileID: 1264855499}
   m_Layer: 0
   m_Name: 1 (302)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9738,7 +9738,7 @@ GameObject:
   - component: {fileID: 1269089074}
   m_Layer: 0
   m_Name: 1 (258)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9769,7 +9769,7 @@ GameObject:
   - component: {fileID: 1275324575}
   m_Layer: 0
   m_Name: 1 (16)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9800,7 +9800,7 @@ GameObject:
   - component: {fileID: 1290739272}
   m_Layer: 0
   m_Name: 1 (419)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9831,7 +9831,7 @@ GameObject:
   - component: {fileID: 1294324670}
   m_Layer: 0
   m_Name: 1 (19)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9862,7 +9862,7 @@ GameObject:
   - component: {fileID: 1298341868}
   m_Layer: 0
   m_Name: 1 (117)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9893,7 +9893,7 @@ GameObject:
   - component: {fileID: 1302453332}
   m_Layer: 0
   m_Name: 1 (31)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9924,7 +9924,7 @@ GameObject:
   - component: {fileID: 1302585240}
   m_Layer: 0
   m_Name: 1 (179)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9955,7 +9955,7 @@ GameObject:
   - component: {fileID: 1306804330}
   m_Layer: 0
   m_Name: 1 (359)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9986,7 +9986,7 @@ GameObject:
   - component: {fileID: 1310267160}
   m_Layer: 0
   m_Name: 1 (84)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10017,7 +10017,7 @@ GameObject:
   - component: {fileID: 1311582222}
   m_Layer: 0
   m_Name: 1 (209)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10048,7 +10048,7 @@ GameObject:
   - component: {fileID: 1315258634}
   m_Layer: 0
   m_Name: 1 (300)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10079,7 +10079,7 @@ GameObject:
   - component: {fileID: 1318541511}
   m_Layer: 0
   m_Name: 1 (454)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10110,7 +10110,7 @@ GameObject:
   - component: {fileID: 1323651603}
   m_Layer: 0
   m_Name: 1 (240)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10141,7 +10141,7 @@ GameObject:
   - component: {fileID: 1327962364}
   m_Layer: 0
   m_Name: 1 (368)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10154,7 +10154,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327962363}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -56.34, y: -1.72, z: 0}
+  m_LocalPosition: {x: -56.18, y: -1.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10172,7 +10172,7 @@ GameObject:
   - component: {fileID: 1333827938}
   m_Layer: 0
   m_Name: 1 (230)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10203,7 +10203,7 @@ GameObject:
   - component: {fileID: 1344859987}
   m_Layer: 0
   m_Name: 1 (180)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10234,7 +10234,7 @@ GameObject:
   - component: {fileID: 1346554920}
   m_Layer: 0
   m_Name: 1
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10265,7 +10265,7 @@ GameObject:
   - component: {fileID: 1349134925}
   m_Layer: 0
   m_Name: 1 (391)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10278,7 +10278,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349134924}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -71.75, y: -6.18, z: 0}
+  m_LocalPosition: {x: -71.590004, y: -6.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10296,7 +10296,7 @@ GameObject:
   - component: {fileID: 1357862062}
   m_Layer: 0
   m_Name: 1 (17)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10327,7 +10327,7 @@ GameObject:
   - component: {fileID: 1361124071}
   m_Layer: 0
   m_Name: 1 (293)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10358,7 +10358,7 @@ GameObject:
   - component: {fileID: 1364691088}
   m_Layer: 0
   m_Name: 1 (28)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10389,7 +10389,7 @@ GameObject:
   - component: {fileID: 1369037212}
   m_Layer: 0
   m_Name: 1 (379)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10402,7 +10402,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369037211}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -74.63, y: -1.29, z: 0}
+  m_LocalPosition: {x: -74.47, y: -1.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10504,7 +10504,7 @@ GameObject:
   - component: {fileID: 1378490438}
   m_Layer: 0
   m_Name: 1 (236)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10535,7 +10535,7 @@ GameObject:
   - component: {fileID: 1379315821}
   m_Layer: 0
   m_Name: 1 (443)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10566,7 +10566,7 @@ GameObject:
   - component: {fileID: 1383850211}
   m_Layer: 0
   m_Name: 1 (278)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10579,7 +10579,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383850210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -60.94, y: -13.88, z: 0}
+  m_LocalPosition: {x: -60.780006, y: -13.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10597,7 +10597,7 @@ GameObject:
   - component: {fileID: 1384046253}
   m_Layer: 0
   m_Name: 1 (169)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10628,7 +10628,7 @@ GameObject:
   - component: {fileID: 1385529557}
   m_Layer: 0
   m_Name: 1 (304)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10659,7 +10659,7 @@ GameObject:
   - component: {fileID: 1392316002}
   m_Layer: 0
   m_Name: 1 (373)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10672,7 +10672,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392316001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -59.27, y: 0.89, z: 0}
+  m_LocalPosition: {x: -59.11001, y: 0.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10690,7 +10690,7 @@ GameObject:
   - component: {fileID: 1394445029}
   m_Layer: 0
   m_Name: 1 (324)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10721,7 +10721,7 @@ GameObject:
   - component: {fileID: 1394849124}
   m_Layer: 0
   m_Name: 1 (439)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10752,7 +10752,7 @@ GameObject:
   - component: {fileID: 1404958394}
   m_Layer: 0
   m_Name: 1 (153)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10783,7 +10783,7 @@ GameObject:
   - component: {fileID: 1405315124}
   m_Layer: 0
   m_Name: 1 (181)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10814,7 +10814,7 @@ GameObject:
   - component: {fileID: 1411437957}
   m_Layer: 0
   m_Name: 1 (165)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10845,7 +10845,7 @@ GameObject:
   - component: {fileID: 1421592341}
   m_Layer: 0
   m_Name: 1 (203)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10876,7 +10876,7 @@ GameObject:
   - component: {fileID: 1423107003}
   m_Layer: 0
   m_Name: 1 (135)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10907,7 +10907,7 @@ GameObject:
   - component: {fileID: 1434041501}
   m_Layer: 0
   m_Name: 1 (127)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10938,7 +10938,7 @@ GameObject:
   - component: {fileID: 1441204926}
   m_Layer: 0
   m_Name: 1 (315)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10969,7 +10969,7 @@ GameObject:
   - component: {fileID: 1442093439}
   m_Layer: 0
   m_Name: 1 (100)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11000,7 +11000,7 @@ GameObject:
   - component: {fileID: 1442604481}
   m_Layer: 0
   m_Name: 1 (41)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11031,7 +11031,7 @@ GameObject:
   - component: {fileID: 1448458340}
   m_Layer: 0
   m_Name: 1 (352)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11062,7 +11062,7 @@ GameObject:
   - component: {fileID: 1449680251}
   m_Layer: 0
   m_Name: 1 (456)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11093,7 +11093,7 @@ GameObject:
   - component: {fileID: 1449692966}
   m_Layer: 0
   m_Name: 1 (118)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11124,7 +11124,7 @@ GameObject:
   - component: {fileID: 1451395488}
   m_Layer: 0
   m_Name: 1 (171)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11155,7 +11155,7 @@ GameObject:
   - component: {fileID: 1452046281}
   m_Layer: 0
   m_Name: 1 (78)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11186,7 +11186,7 @@ GameObject:
   - component: {fileID: 1455550928}
   m_Layer: 0
   m_Name: 1 (122)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11217,7 +11217,7 @@ GameObject:
   - component: {fileID: 1459752618}
   m_Layer: 0
   m_Name: 1 (313)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11248,7 +11248,7 @@ GameObject:
   - component: {fileID: 1492900930}
   m_Layer: 0
   m_Name: 1 (235)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11279,7 +11279,7 @@ GameObject:
   - component: {fileID: 1496025896}
   m_Layer: 0
   m_Name: 1 (353)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11310,7 +11310,7 @@ GameObject:
   - component: {fileID: 1498650193}
   m_Layer: 0
   m_Name: 1 (65)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11341,7 +11341,7 @@ GameObject:
   - component: {fileID: 1508300411}
   m_Layer: 0
   m_Name: 1 (372)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11354,7 +11354,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508300410}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -59.15, y: -2.25, z: 0}
+  m_LocalPosition: {x: -58.990005, y: -2.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11372,7 +11372,7 @@ GameObject:
   - component: {fileID: 1510216362}
   m_Layer: 0
   m_Name: 1 (234)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11403,7 +11403,7 @@ GameObject:
   - component: {fileID: 1511527212}
   m_Layer: 0
   m_Name: 1 (5)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11434,7 +11434,7 @@ GameObject:
   - component: {fileID: 1516657962}
   m_Layer: 0
   m_Name: 1 (335)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11465,7 +11465,7 @@ GameObject:
   - component: {fileID: 1519191093}
   m_Layer: 0
   m_Name: 1 (24)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11496,7 +11496,7 @@ GameObject:
   - component: {fileID: 1527552377}
   m_Layer: 0
   m_Name: 1 (105)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11527,7 +11527,7 @@ GameObject:
   - component: {fileID: 1532854852}
   m_Layer: 0
   m_Name: 1 (63)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11558,7 +11558,7 @@ GameObject:
   - component: {fileID: 1533655450}
   m_Layer: 0
   m_Name: 1 (150)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11589,7 +11589,7 @@ GameObject:
   - component: {fileID: 1534692574}
   m_Layer: 0
   m_Name: 1 (395)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11602,7 +11602,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534692573}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -70.92, y: 0.58, z: 0}
+  m_LocalPosition: {x: -70.76, y: 0.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11620,7 +11620,7 @@ GameObject:
   - component: {fileID: 1538870517}
   m_Layer: 0
   m_Name: 1 (461)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11651,7 +11651,7 @@ GameObject:
   - component: {fileID: 1546641254}
   m_Layer: 0
   m_Name: 1 (141)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11682,7 +11682,7 @@ GameObject:
   - component: {fileID: 1560534385}
   m_Layer: 0
   m_Name: 1 (197)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11713,7 +11713,7 @@ GameObject:
   - component: {fileID: 1565159217}
   m_Layer: 0
   m_Name: 1 (365)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11726,7 +11726,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565159216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.849995, y: -10.68, z: 0}
+  m_LocalPosition: {x: -62.689995, y: -10.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11744,7 +11744,7 @@ GameObject:
   - component: {fileID: 1565414343}
   m_Layer: 0
   m_Name: 1 (40)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11775,7 +11775,7 @@ GameObject:
   - component: {fileID: 1573130174}
   m_Layer: 0
   m_Name: 1 (289)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11806,7 +11806,7 @@ GameObject:
   - component: {fileID: 1592580574}
   m_Layer: 0
   m_Name: 1 (423)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11837,7 +11837,7 @@ GameObject:
   - component: {fileID: 1601425503}
   m_Layer: 0
   m_Name: 1 (337)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11868,7 +11868,7 @@ GameObject:
   - component: {fileID: 1602905482}
   m_Layer: 0
   m_Name: 1 (11)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11899,7 +11899,7 @@ GameObject:
   - component: {fileID: 1603951136}
   m_Layer: 0
   m_Name: 1 (123)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11930,7 +11930,7 @@ GameObject:
   - component: {fileID: 1604651521}
   m_Layer: 0
   m_Name: 1 (383)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11943,7 +11943,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1604651520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.88, y: -6.52, z: 0}
+  m_LocalPosition: {x: -62.72001, y: -6.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11961,7 +11961,7 @@ GameObject:
   - component: {fileID: 1606031288}
   m_Layer: 0
   m_Name: 1 (164)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11992,7 +11992,7 @@ GameObject:
   - component: {fileID: 1615700588}
   m_Layer: 0
   m_Name: 1 (35)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12023,7 +12023,7 @@ GameObject:
   - component: {fileID: 1617421629}
   m_Layer: 0
   m_Name: 1 (10)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12054,7 +12054,7 @@ GameObject:
   - component: {fileID: 1617802744}
   m_Layer: 0
   m_Name: 1 (90)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12085,7 +12085,7 @@ GameObject:
   - component: {fileID: 1623121496}
   m_Layer: 0
   m_Name: 1 (13)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12116,7 +12116,7 @@ GameObject:
   - component: {fileID: 1626452765}
   m_Layer: 0
   m_Name: 1 (99)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12147,7 +12147,7 @@ GameObject:
   - component: {fileID: 1626799402}
   m_Layer: 0
   m_Name: 1 (274)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12178,7 +12178,7 @@ GameObject:
   - component: {fileID: 1627557439}
   m_Layer: 0
   m_Name: 1 (277)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12191,7 +12191,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627557438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -63.72, y: -15.12, z: 0}
+  m_LocalPosition: {x: -63.560005, y: -15.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12209,7 +12209,7 @@ GameObject:
   - component: {fileID: 1636385654}
   m_Layer: 0
   m_Name: 1 (45)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12240,7 +12240,7 @@ GameObject:
   - component: {fileID: 1638640571}
   m_Layer: 0
   m_Name: 1 (297)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12271,7 +12271,7 @@ GameObject:
   - component: {fileID: 1641125429}
   m_Layer: 0
   m_Name: 1 (307)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12302,7 +12302,7 @@ GameObject:
   - component: {fileID: 1651029336}
   m_Layer: 0
   m_Name: 1 (109)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12333,7 +12333,7 @@ GameObject:
   - component: {fileID: 1654864330}
   m_Layer: 0
   m_Name: 1 (259)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12364,7 +12364,7 @@ GameObject:
   - component: {fileID: 1660451710}
   m_Layer: 0
   m_Name: 1 (55)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12395,7 +12395,7 @@ GameObject:
   - component: {fileID: 1662071972}
   m_Layer: 0
   m_Name: 1 (198)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12426,7 +12426,7 @@ GameObject:
   - component: {fileID: 1664602968}
   m_Layer: 0
   m_Name: 1 (457)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12457,7 +12457,7 @@ GameObject:
   - component: {fileID: 1665436032}
   m_Layer: 0
   m_Name: 1 (333)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12488,7 +12488,7 @@ GameObject:
   - component: {fileID: 1667795038}
   m_Layer: 0
   m_Name: 1 (213)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12519,7 +12519,7 @@ GameObject:
   - component: {fileID: 1669501829}
   m_Layer: 0
   m_Name: 1 (295)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12550,7 +12550,7 @@ GameObject:
   - component: {fileID: 1670846662}
   m_Layer: 0
   m_Name: 1 (242)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12581,7 +12581,7 @@ GameObject:
   - component: {fileID: 1676947647}
   m_Layer: 0
   m_Name: 1 (429)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12612,7 +12612,7 @@ GameObject:
   - component: {fileID: 1680913419}
   m_Layer: 0
   m_Name: 1 (265)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12643,7 +12643,7 @@ GameObject:
   - component: {fileID: 1686624984}
   m_Layer: 0
   m_Name: 1 (207)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12793,7 +12793,7 @@ GameObject:
   - component: {fileID: 1691824522}
   m_Layer: 0
   m_Name: 1 (173)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12824,7 +12824,7 @@ GameObject:
   - component: {fileID: 1693207805}
   m_Layer: 0
   m_Name: 1 (344)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12855,7 +12855,7 @@ GameObject:
   - component: {fileID: 1698242747}
   m_Layer: 0
   m_Name: 1 (26)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12886,7 +12886,7 @@ GameObject:
   - component: {fileID: 1712937088}
   m_Layer: 0
   m_Name: 1 (69)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12917,7 +12917,7 @@ GameObject:
   - component: {fileID: 1718221045}
   m_Layer: 0
   m_Name: 1 (262)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12948,7 +12948,7 @@ GameObject:
   - component: {fileID: 1729689393}
   m_Layer: 0
   m_Name: 1 (469)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12979,7 +12979,7 @@ GameObject:
   - component: {fileID: 1734724976}
   m_Layer: 0
   m_Name: 1 (51)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13010,7 +13010,7 @@ GameObject:
   - component: {fileID: 1736420472}
   m_Layer: 0
   m_Name: 1 (322)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13146,7 +13146,7 @@ GameObject:
   - component: {fileID: 1740430495}
   m_Layer: 0
   m_Name: 1 (287)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13177,7 +13177,7 @@ GameObject:
   - component: {fileID: 1742574708}
   m_Layer: 0
   m_Name: 1 (149)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13208,7 +13208,7 @@ GameObject:
   - component: {fileID: 1746304841}
   m_Layer: 0
   m_Name: 1 (76)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13239,7 +13239,7 @@ GameObject:
   - component: {fileID: 1750602703}
   m_Layer: 0
   m_Name: 1 (446)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13270,7 +13270,7 @@ GameObject:
   - component: {fileID: 1752884507}
   m_Layer: 0
   m_Name: 1 (128)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13301,7 +13301,7 @@ GameObject:
   - component: {fileID: 1760279214}
   m_Layer: 0
   m_Name: 1 (468)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13332,7 +13332,7 @@ GameObject:
   - component: {fileID: 1768919467}
   m_Layer: 0
   m_Name: 1 (431)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13363,7 +13363,7 @@ GameObject:
   - component: {fileID: 1770483631}
   m_Layer: 0
   m_Name: 1 (91)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13394,7 +13394,7 @@ GameObject:
   - component: {fileID: 1772125957}
   m_Layer: 0
   m_Name: 1 (210)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13425,7 +13425,7 @@ GameObject:
   - component: {fileID: 1774009512}
   m_Layer: 0
   m_Name: 1 (438)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13456,7 +13456,7 @@ GameObject:
   - component: {fileID: 1777595051}
   m_Layer: 0
   m_Name: 1 (394)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13469,7 +13469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1777595050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -67.92, y: -1, z: 0}
+  m_LocalPosition: {x: -67.76, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13487,7 +13487,7 @@ GameObject:
   - component: {fileID: 1778075198}
   m_Layer: 0
   m_Name: 1 (281)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13518,7 +13518,7 @@ GameObject:
   - component: {fileID: 1779152129}
   m_Layer: 0
   m_Name: 1 (404)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13531,7 +13531,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779152128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -63.09, y: 8.59, z: 0}
+  m_LocalPosition: {x: -62.93, y: 8.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13549,7 +13549,7 @@ GameObject:
   - component: {fileID: 1788926625}
   m_Layer: 0
   m_Name: 1 (387)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13562,7 +13562,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788926624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -64.81, y: -0.12, z: 0}
+  m_LocalPosition: {x: -64.65, y: -0.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13580,7 +13580,7 @@ GameObject:
   - component: {fileID: 1791105088}
   m_Layer: 0
   m_Name: 1 (67)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13611,7 +13611,7 @@ GameObject:
   - component: {fileID: 1794763164}
   m_Layer: 0
   m_Name: 1 (96)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13642,7 +13642,7 @@ GameObject:
   - component: {fileID: 1796342530}
   m_Layer: 0
   m_Name: 1 (280)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13655,7 +13655,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796342529}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.05, y: -8.45, z: 0}
+  m_LocalPosition: {x: -56.890007, y: -8.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13673,7 +13673,7 @@ GameObject:
   - component: {fileID: 1796847046}
   m_Layer: 0
   m_Name: 1 (388)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13686,7 +13686,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796847045}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -65.05, y: -3.12, z: 0}
+  m_LocalPosition: {x: -64.89001, y: -3.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13704,7 +13704,7 @@ GameObject:
   - component: {fileID: 1798960614}
   m_Layer: 0
   m_Name: 1 (246)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13735,7 +13735,7 @@ GameObject:
   - component: {fileID: 1800672390}
   m_Layer: 0
   m_Name: 1 (85)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13766,7 +13766,7 @@ GameObject:
   - component: {fileID: 1803146309}
   m_Layer: 0
   m_Name: 1 (342)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13797,7 +13797,7 @@ GameObject:
   - component: {fileID: 1803666251}
   m_Layer: 0
   m_Name: 1 (245)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13828,7 +13828,7 @@ GameObject:
   - component: {fileID: 1820220374}
   m_Layer: 0
   m_Name: 1 (266)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13859,7 +13859,7 @@ GameObject:
   - component: {fileID: 1827914247}
   m_Layer: 0
   m_Name: 1 (58)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13890,7 +13890,7 @@ GameObject:
   - component: {fileID: 1829203100}
   m_Layer: 0
   m_Name: 1 (275)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13921,7 +13921,7 @@ GameObject:
   - component: {fileID: 1830953165}
   m_Layer: 0
   m_Name: 1 (255)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13952,7 +13952,7 @@ GameObject:
   - component: {fileID: 1834096560}
   m_Layer: 0
   m_Name: 1 (114)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13983,7 +13983,7 @@ GameObject:
   - component: {fileID: 1844152987}
   m_Layer: 0
   m_Name: 1 (294)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14014,7 +14014,7 @@ GameObject:
   - component: {fileID: 1845111745}
   m_Layer: 0
   m_Name: 1 (451)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14045,7 +14045,7 @@ GameObject:
   - component: {fileID: 1851083632}
   m_Layer: 0
   m_Name: 1 (358)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14076,7 +14076,7 @@ GameObject:
   - component: {fileID: 1852534820}
   m_Layer: 0
   m_Name: 1 (460)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14107,7 +14107,7 @@ GameObject:
   - component: {fileID: 1866209721}
   m_Layer: 0
   m_Name: 1 (356)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14138,7 +14138,7 @@ GameObject:
   - component: {fileID: 1866698027}
   m_Layer: 0
   m_Name: 1 (2)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14169,7 +14169,7 @@ GameObject:
   - component: {fileID: 1870118398}
   m_Layer: 0
   m_Name: 1 (29)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14200,7 +14200,7 @@ GameObject:
   - component: {fileID: 1873147460}
   m_Layer: 0
   m_Name: 1 (332)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14231,7 +14231,7 @@ GameObject:
   - component: {fileID: 1883627729}
   m_Layer: 0
   m_Name: 1 (39)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14262,7 +14262,7 @@ GameObject:
   - component: {fileID: 1885950874}
   m_Layer: 0
   m_Name: 1 (381)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14275,7 +14275,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885950873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -68.12, y: -10.4, z: 0}
+  m_LocalPosition: {x: -67.96001, y: -10.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14293,7 +14293,7 @@ GameObject:
   - component: {fileID: 1888480904}
   m_Layer: 0
   m_Name: 1 (166)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14324,7 +14324,7 @@ GameObject:
   - component: {fileID: 1889049440}
   m_Layer: 0
   m_Name: 1 (405)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14337,7 +14337,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889049439}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -66.26, y: 7.59, z: 0}
+  m_LocalPosition: {x: -66.100006, y: 7.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14355,7 +14355,7 @@ GameObject:
   - component: {fileID: 1893012508}
   m_Layer: 0
   m_Name: 1 (80)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14386,7 +14386,7 @@ GameObject:
   - component: {fileID: 1895854093}
   m_Layer: 0
   m_Name: 1 (129)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14417,7 +14417,7 @@ GameObject:
   - component: {fileID: 1906267293}
   m_Layer: 0
   m_Name: 1 (351)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14448,7 +14448,7 @@ GameObject:
   - component: {fileID: 1910769997}
   m_Layer: 0
   m_Name: 1 (59)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14479,7 +14479,7 @@ GameObject:
   - component: {fileID: 1914400916}
   m_Layer: 0
   m_Name: 1 (401)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14492,7 +14492,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914400915}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -65.97, y: 4.88, z: 0}
+  m_LocalPosition: {x: -65.810005, y: 4.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14510,7 +14510,7 @@ GameObject:
   - component: {fileID: 1915612295}
   m_Layer: 0
   m_Name: 1 (425)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14541,7 +14541,7 @@ GameObject:
   - component: {fileID: 1920532225}
   m_Layer: 0
   m_Name: 1 (458)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14572,7 +14572,7 @@ GameObject:
   - component: {fileID: 1921242090}
   m_Layer: 0
   m_Name: 1 (412)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14603,7 +14603,7 @@ GameObject:
   - component: {fileID: 1922648771}
   m_Layer: 0
   m_Name: 1 (194)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14634,7 +14634,7 @@ GameObject:
   - component: {fileID: 1935454619}
   m_Layer: 0
   m_Name: 1 (48)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14665,7 +14665,7 @@ GameObject:
   - component: {fileID: 1937168265}
   m_Layer: 0
   m_Name: 1 (377)
-  m_TagString: Untagged
+  m_TagString: STORE_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14678,7 +14678,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1937168264}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -74.4, y: -7.75, z: 0}
+  m_LocalPosition: {x: -74.240005, y: -7.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14696,7 +14696,7 @@ GameObject:
   - component: {fileID: 1938740555}
   m_Layer: 0
   m_Name: 1 (163)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14727,7 +14727,7 @@ GameObject:
   - component: {fileID: 1939963928}
   m_Layer: 0
   m_Name: 1 (33)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14758,7 +14758,7 @@ GameObject:
   - component: {fileID: 1944088358}
   m_Layer: 0
   m_Name: 1 (178)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14789,7 +14789,7 @@ GameObject:
   - component: {fileID: 1947930681}
   m_Layer: 0
   m_Name: 1 (187)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14820,7 +14820,7 @@ GameObject:
   - component: {fileID: 1948697023}
   m_Layer: 0
   m_Name: 1 (202)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14851,7 +14851,7 @@ GameObject:
   - component: {fileID: 1952156772}
   m_Layer: 0
   m_Name: 1 (252)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14882,7 +14882,7 @@ GameObject:
   - component: {fileID: 1953825574}
   m_Layer: 0
   m_Name: 1 (420)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14913,7 +14913,7 @@ GameObject:
   - component: {fileID: 1961431642}
   m_Layer: 0
   m_Name: 1 (227)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14944,7 +14944,7 @@ GameObject:
   - component: {fileID: 1971475794}
   m_Layer: 0
   m_Name: 1 (463)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14975,7 +14975,7 @@ GameObject:
   - component: {fileID: 1973809724}
   m_Layer: 0
   m_Name: 1 (66)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15006,7 +15006,7 @@ GameObject:
   - component: {fileID: 1974754880}
   m_Layer: 0
   m_Name: 1 (417)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15037,7 +15037,7 @@ GameObject:
   - component: {fileID: 1977109155}
   m_Layer: 0
   m_Name: 1 (1)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15068,7 +15068,7 @@ GameObject:
   - component: {fileID: 1981763147}
   m_Layer: 0
   m_Name: 1 (336)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15099,7 +15099,7 @@ GameObject:
   - component: {fileID: 1983759106}
   m_Layer: 0
   m_Name: 1 (9)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15130,7 +15130,7 @@ GameObject:
   - component: {fileID: 1985504522}
   m_Layer: 0
   m_Name: 1 (309)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15161,7 +15161,7 @@ GameObject:
   - component: {fileID: 1986263103}
   m_Layer: 0
   m_Name: 1 (346)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15192,7 +15192,7 @@ GameObject:
   - component: {fileID: 1990816484}
   m_Layer: 0
   m_Name: 1 (131)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15223,7 +15223,7 @@ GameObject:
   - component: {fileID: 1995576446}
   m_Layer: 0
   m_Name: 1 (81)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15254,7 +15254,7 @@ GameObject:
   - component: {fileID: 1997971925}
   m_Layer: 0
   m_Name: 1 (360)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15285,7 +15285,7 @@ GameObject:
   - component: {fileID: 2010119872}
   m_Layer: 0
   m_Name: 1 (44)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15316,7 +15316,7 @@ GameObject:
   - component: {fileID: 2012115668}
   m_Layer: 0
   m_Name: 1 (98)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15347,7 +15347,7 @@ GameObject:
   - component: {fileID: 2013671752}
   m_Layer: 0
   m_Name: 1 (267)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15378,7 +15378,7 @@ GameObject:
   - component: {fileID: 2014303334}
   m_Layer: 0
   m_Name: 1 (196)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15409,7 +15409,7 @@ GameObject:
   - component: {fileID: 2019009753}
   m_Layer: 0
   m_Name: 1 (263)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15440,7 +15440,7 @@ GameObject:
   - component: {fileID: 2020797198}
   m_Layer: 0
   m_Name: 1 (125)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15471,7 +15471,7 @@ GameObject:
   - component: {fileID: 2029998176}
   m_Layer: 0
   m_Name: 1 (238)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15502,7 +15502,7 @@ GameObject:
   - component: {fileID: 2030160772}
   m_Layer: 0
   m_Name: 1 (186)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15533,7 +15533,7 @@ GameObject:
   - component: {fileID: 2030744854}
   m_Layer: 0
   m_Name: 1 (111)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15564,7 +15564,7 @@ GameObject:
   - component: {fileID: 2034727798}
   m_Layer: 0
   m_Name: 1 (154)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15595,7 +15595,7 @@ GameObject:
   - component: {fileID: 2046172169}
   m_Layer: 0
   m_Name: 1 (73)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15626,7 +15626,7 @@ GameObject:
   - component: {fileID: 2052595592}
   m_Layer: 0
   m_Name: 1 (442)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15657,7 +15657,7 @@ GameObject:
   - component: {fileID: 2061380079}
   m_Layer: 0
   m_Name: 1 (168)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15688,7 +15688,7 @@ GameObject:
   - component: {fileID: 2065836126}
   m_Layer: 0
   m_Name: 1 (455)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15719,7 +15719,7 @@ GameObject:
   - component: {fileID: 2067894983}
   m_Layer: 0
   m_Name: 1 (288)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15750,7 +15750,7 @@ GameObject:
   - component: {fileID: 2069645543}
   m_Layer: 0
   m_Name: 1 (437)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15781,7 +15781,7 @@ GameObject:
   - component: {fileID: 2075282232}
   m_Layer: 0
   m_Name: 1 (413)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15905,7 +15905,7 @@ GameObject:
   - component: {fileID: 2083737258}
   m_Layer: 0
   m_Name: 1 (299)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15936,7 +15936,7 @@ GameObject:
   - component: {fileID: 2088429163}
   m_Layer: 0
   m_Name: 1 (162)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15967,7 +15967,7 @@ GameObject:
   - component: {fileID: 2095667648}
   m_Layer: 0
   m_Name: 1 (106)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15998,7 +15998,7 @@ GameObject:
   - component: {fileID: 2096188458}
   m_Layer: 0
   m_Name: 1 (143)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16029,7 +16029,7 @@ GameObject:
   - component: {fileID: 2097727554}
   m_Layer: 0
   m_Name: 1 (470)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16060,7 +16060,7 @@ GameObject:
   - component: {fileID: 2104162583}
   m_Layer: 0
   m_Name: 1 (223)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16091,7 +16091,7 @@ GameObject:
   - component: {fileID: 2107892162}
   m_Layer: 0
   m_Name: 1 (432)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16122,7 +16122,7 @@ GameObject:
   - component: {fileID: 2110732073}
   m_Layer: 0
   m_Name: 1 (188)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16153,7 +16153,7 @@ GameObject:
   - component: {fileID: 2114287884}
   m_Layer: 0
   m_Name: 1 (83)
-  m_TagString: Untagged
+  m_TagString: HATCHING_CHAMBER
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16184,7 +16184,7 @@ GameObject:
   - component: {fileID: 2118456215}
   m_Layer: 0
   m_Name: 1 (42)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16215,7 +16215,7 @@ GameObject:
   - component: {fileID: 2119036375}
   m_Layer: 0
   m_Name: 1 (321)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16246,7 +16246,7 @@ GameObject:
   - component: {fileID: 2122412922}
   m_Layer: 0
   m_Name: 1 (89)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16277,7 +16277,7 @@ GameObject:
   - component: {fileID: 2125817921}
   m_Layer: 0
   m_Name: 1 (268)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16308,7 +16308,7 @@ GameObject:
   - component: {fileID: 2137199792}
   m_Layer: 0
   m_Name: 1 (175)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16339,7 +16339,7 @@ GameObject:
   - component: {fileID: 2144452312}
   m_Layer: 0
   m_Name: 1 (115)
-  m_TagString: Untagged
+  m_TagString: WANDER_POINTS
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

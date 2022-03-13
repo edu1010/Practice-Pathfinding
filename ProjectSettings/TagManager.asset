@@ -10,6 +10,9 @@ TagManager:
   - EGG
   - SEED
   - NODES
+  - STORE_CHAMBER
+  - HATCHING_CHAMBER
+  - WANDER_POINTS
   layers:
   - Default
   - TransparentFX
