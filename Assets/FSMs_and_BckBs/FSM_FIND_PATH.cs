@@ -19,7 +19,9 @@ namespace FSM
         public PathFeeder pathFeeder;
         PathFollowing pathfollowing;
         public GameObject currentWaypoint;//Esto lo usamos de target entiendo?
-
+        private GameObject target;//Esto lo usamos de target entiendo?
+        private Seeker seeker;
+        private Path currentPath;
         //GameObject[] wanderPoints;
         /*
         PathFeeder pathFeeder;
@@ -27,7 +29,7 @@ namespace FSM
         private GameObject currentTar;
         LADYBUG_BLACKBOARD blckboard;
         private Path currentPath;
-        private Seeker seeker;
+        
         */
 
         // Start is called before the first frame update
@@ -81,12 +83,11 @@ namespace FSM
                     ChangeState(State.FOLLOWING);
                     break;
                 case State.GENERATING:
-                    
                     break;
                 case State.FOLLOWING:
-                    if (SensingUtils.DistanceToTarget(gameObject, currentWaypoint) <= blackboard.pointReachedRadius) //poner una  variable para pointReachedRadius
+                    if (SensingUtils.DistanceToTarget(gameObject, target) <= blackboard.pointReachedRadius) //poner una  variable para pointReachedRadius
                     {
-                        ChangeState(State.INITIAL);
+                        ChangeState(State.TERMINATED);
                         break;
                     } 
                     break;
@@ -105,16 +106,15 @@ namespace FSM
                     
                     break;
                 case State.GENERATING:
-                    /*
-                    if (currentPath != null)
-                    {
-                        ChangeState(State.FOLLOWING);
-                    }
                     break;
-                    */
                 case State.FOLLOWING:
-                    pathFeeder.enabled = false;
-                    pathFeeder.OnPathComplete(pathfollowing.path);
+                   // pathFeeder.enabled = false;
+                    //pathFeeder.OnPathComplete(pathfollowing.path);
+                    if(SensingUtils.DistanceToTarget(gameObject,target) < blackboard.pointReachedRadius)
+                    {
+                        ChangeState(State.TERMINATED);
+                        break;
+                    }
                     break;
                 case State.TERMINATED:
                     break;
@@ -127,7 +127,7 @@ namespace FSM
 
                     break;
                 case State.GENERATING:
-                    //seeker.StartPath(this.transform.position, blckboard.target.transform.position, OnPathComplete);
+                    seeker.StartPath(this.transform.position, target.transform.position, OnPathComplete);
                     break;
                 case State.FOLLOWING:
                     //currentWaypoint = blackboard.GetRandomWanderPoint();
@@ -143,20 +143,23 @@ namespace FSM
             currentState = newState;
         }
 
-        /*
+        
         public void OnPathComplete(Path p)
         {
             // this is a "callback" method. if this method is called, a path has been computed and "stored" in p
             currentPath = p;
+            ChangeState(State.FOLLOWING);
         }
-        */
+        
         public void SetTargetToStoreChamber()
         {
-          currentWaypoint =  blackboard.GetRandomStorePont();
+            // currentWaypoint =  blackboard.GetRandomStorePont();
+            target =  blackboard.GetRandomStorePont();
         }
         public void SetTargetToHachinChamber()
         {
-            currentWaypoint = blackboard.GetRandomHachinPoint();
+            //currentWaypoint = blackboard.GetRandomHachinPoint();
+            target = blackboard.GetRandomHachinPoint();
         }
     }
 
