@@ -6,7 +6,6 @@ using Pathfinding;
 namespace FSM
 {
     [RequireComponent(typeof(PathFollowing))]
-    [RequireComponent(typeof(PathFeeder))]
     [RequireComponent(typeof(Seeker))]
     [RequireComponent(typeof(FIND_PATH_BLACKBOARD))]
     public class FSM_FIND_PATH : FiniteStateMachine
@@ -16,29 +15,18 @@ namespace FSM
         public State currentState = State.INITIAL;
 
         FIND_PATH_BLACKBOARD blackboard;
-        public PathFeeder pathFeeder;
         PathFollowing pathfollowing;
-        public GameObject currentWaypoint;//Esto lo usamos de target entiendo?
-        private GameObject target;//Esto lo usamos de target entiendo?
+       // public GameObject currentWaypoint;//Esto lo usamos de target entiendo?
         private Seeker seeker;
         private Path currentPath;
-        //GameObject[] wanderPoints;
-        /*
-        PathFeeder pathFeeder;
-        public GameObject targets;
-        private GameObject currentTar;
-        LADYBUG_BLACKBOARD blckboard;
-        private Path currentPath;
-        
-        */
 
         // Start is called before the first frame update
         void Start()
         {
             //seeker = GetComponent<Seeker>();
             pathfollowing = GetComponent<PathFollowing>();
-            pathFeeder = GetComponent<PathFeeder>();
             blackboard = GetComponent<FIND_PATH_BLACKBOARD>();
+            seeker = GetComponent<Seeker>();
             //wanderPoints = GameObject.FindGameObjectsWithTag("WANDER_POINTS");
 
             /*
@@ -70,7 +58,6 @@ namespace FSM
         public override void Exit()
         {
             pathfollowing.enabled = false;
-            pathFeeder.enabled = false;
             base.Exit();
         }
 
@@ -80,12 +67,12 @@ namespace FSM
             switch (currentState)
             {
                 case State.INITIAL:
-                    ChangeState(State.FOLLOWING);
+                    ChangeState(State.GENERATING);
                     break;
                 case State.GENERATING:
                     break;
                 case State.FOLLOWING:
-                    if (SensingUtils.DistanceToTarget(gameObject, target) <= blackboard.pointReachedRadius) //poner una  variable para pointReachedRadius
+                    if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) <= blackboard.pointReachedRadius) //poner una  variable para pointReachedRadius
                     {
                         ChangeState(State.TERMINATED);
                         break;
@@ -108,9 +95,10 @@ namespace FSM
                 case State.GENERATING:
                     break;
                 case State.FOLLOWING:
-                   // pathFeeder.enabled = false;
+                    pathfollowing.enabled = false;
+                    // pathFeeder.enabled = false;
                     //pathFeeder.OnPathComplete(pathfollowing.path);
-                    if(SensingUtils.DistanceToTarget(gameObject,target) < blackboard.pointReachedRadius)
+                    if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) < blackboard.pointReachedRadius)
                     {
                         ChangeState(State.TERMINATED);
                         break;
@@ -127,12 +115,15 @@ namespace FSM
 
                     break;
                 case State.GENERATING:
-                    seeker.StartPath(this.transform.position, target.transform.position, OnPathComplete);
+                    seeker.StartPath(this.transform.position, blackboard.target.transform.position, OnPathComplete);
                     break;
                 case State.FOLLOWING:
+                    pathfollowing.path = currentPath;
+                    pathfollowing.enabled = true;
+                    
                     //currentWaypoint = blackboard.GetRandomWanderPoint();
-                    pathFeeder.enabled = true;
-                    pathFeeder.target = currentWaypoint;
+                    //pathFeeder.enabled = true;
+                    // pathFeeder.target = currentWaypoint;
                     //pathFeeder.target = currentTar;
                     break;
                 case State.TERMINATED:
@@ -151,16 +142,6 @@ namespace FSM
             ChangeState(State.FOLLOWING);
         }
         
-        public void SetTargetToStoreChamber()
-        {
-            // currentWaypoint =  blackboard.GetRandomStorePont();
-            target =  blackboard.GetRandomStorePont();
-        }
-        public void SetTargetToHachinChamber()
-        {
-            //currentWaypoint = blackboard.GetRandomHachinPoint();
-            target = blackboard.GetRandomHachinPoint();
-        }
     }
 
 }

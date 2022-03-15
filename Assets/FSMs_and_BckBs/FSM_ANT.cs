@@ -94,13 +94,15 @@ namespace FSM
                 case State.GO_TO_DELIVERY_POINT:
                     deliveryPoint = findPathBlackboard.GetRandomWanderPoint();
                     fsm_findPath.ReEnter();
-                    fsm_findPath.currentWaypoint = deliveryPoint;
+                    findPathBlackboard.target = deliveryPoint;
+                    //fsm_findPath.currentWaypoint = deliveryPoint;
                     break;
                 case State.GO_TO_EXIT_POINT:
                     fsm_findPath.ReEnter();
                     child.transform.parent = null;
                     definitiveExitPoint = posibleExitPoints[Random.Range(0, posibleExitPoints.Length)];
-                    fsm_findPath.currentWaypoint = definitiveExitPoint;
+                   // fsm_findPath.currentWaypoint = definitiveExitPoint;
+                    findPathBlackboard.target = definitiveExitPoint;
                     break;
             }
 

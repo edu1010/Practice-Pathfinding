@@ -48,24 +48,28 @@ namespace FSM
                     if (SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.closerEggDetectionRadius))
                     {
                         blackboard.target = SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.closerEggDetectionRadius);
+                        findPathBlackboard.target = blackboard.target;
                         ChangeState(State.REACH_EGG);
                         break;
                     }
                     else if(SensingUtils.FindRandomInstanceWithinRadius(gameObject, "EGG", blackboard.randomEggDetectionRadius))
                     {
                         blackboard.target = SensingUtils.FindRandomInstanceWithinRadius(gameObject, "EGG", blackboard.randomEggDetectionRadius);
+                        findPathBlackboard.target = blackboard.target;
                         ChangeState(State.REACH_EGG);
                         break;
                     }
                     else if(SensingUtils.FindInstanceWithinRadius(gameObject, "SEED", blackboard.closerSeedDetectionRadius))
                     {
                         blackboard.target = SensingUtils.FindInstanceWithinRadius(gameObject, "SEED", blackboard.closerSeedDetectionRadius);
+                        findPathBlackboard.target = blackboard.target;
                         ChangeState(State.REACH_SEED);
                         break;
                     }
                     else if(SensingUtils.FindRandomInstanceWithinRadius(gameObject, "SEED", blackboard.randomSeedDetectionRadius))
                     {
                         blackboard.target = SensingUtils.FindRandomInstanceWithinRadius(gameObject, "SEED", blackboard.randomSeedDetectionRadius);
+                        findPathBlackboard.target = blackboard.target;
                         ChangeState(State.REACH_SEED);
                         break;
                     }
@@ -99,7 +103,7 @@ namespace FSM
                     }
                     break;
                 case State.GO_TO_HATCHING_CHAMBER:
-                    if (SensingUtils.DistanceToTarget(gameObject, fsm_findPath.currentWaypoint) <= blackboard.reachedObjectRadius)
+                    if (SensingUtils.DistanceToTarget(gameObject, findPathBlackboard.target) <= blackboard.reachedObjectRadius)
                     {
                         ChangeState(State.WANDER); 
                         break;
@@ -141,19 +145,27 @@ namespace FSM
             {
                 case State.WANDER:
                     fsm_findPath.ReEnter();
-                    fsm_findPath.currentWaypoint = findPathBlackboard.GetRandomWanderPoint();
+                    findPathBlackboard.SetTargetToWander();
                     break;
                 case State.REACH_SEED:
+
+                    fsm_findPath.ReEnter();
                     break;
                 case State.REACH_EGG:
+
+                    fsm_findPath.ReEnter();
                     break;
                 case State.GO_TO_STORE_CHAMBER:
                     blackboard.target.transform.parent = transform;
-                    fsm_findPath.SetTargetToStoreChamber();//target store
+                    findPathBlackboard.SetTargetToStoreChamber();//target store
+
+                    fsm_findPath.ReEnter();
                     break;
                 case State.GO_TO_HATCHING_CHAMBER:
                     blackboard.target.transform.parent = transform;
-                    fsm_findPath.SetTargetToHachinChamber();//target hachin
+                    findPathBlackboard.SetTargetToHachinChamber();//target hachin
+
+                    fsm_findPath.ReEnter();
                     break;
             }
 
