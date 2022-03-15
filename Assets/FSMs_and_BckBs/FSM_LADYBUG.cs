@@ -144,11 +144,12 @@ namespace FSM
             switch (newState)
             {
                 case State.WANDER:
+                    fsm_findPath.Exit();
                     fsm_findPath.ReEnter();
                     findPathBlackboard.SetTargetToWander();
                     break;
                 case State.REACH_SEED:
-
+                    fsm_findPath.Exit();
                     fsm_findPath.ReEnter();
                     break;
                 case State.REACH_EGG:
@@ -158,13 +159,13 @@ namespace FSM
                 case State.GO_TO_STORE_CHAMBER:
                     blackboard.target.transform.parent = transform;
                     findPathBlackboard.SetTargetToStoreChamber();//target store
-
+                    fsm_findPath.Exit();
                     fsm_findPath.ReEnter();
                     break;
                 case State.GO_TO_HATCHING_CHAMBER:
                     blackboard.target.transform.parent = transform;
                     findPathBlackboard.SetTargetToHachinChamber();//target hachin
-
+                    fsm_findPath.Exit();
                     fsm_findPath.ReEnter();
                     break;
             }
