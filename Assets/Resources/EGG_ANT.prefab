@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 21217620}
   - component: {fileID: 11491196}
   - component: {fileID: 8623521736206590707}
-  - component: {fileID: 6960937836854197314}
   - component: {fileID: 7909432522581620232}
   - component: {fileID: 1913451396762331607}
   - component: {fileID: 4348241708062128446}
+  - component: {fileID: 5332760683241775515}
   m_Layer: 0
   m_Name: EGG_ANT
   m_TagString: Untagged
@@ -126,20 +126,6 @@ MonoBehaviour:
   rotationalPolicy: 1
   wayPointReachedRadius: 1
   currentWaypointIndex: 0
---- !u!114 &6960937836854197314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f754f3ab961af24d8ee04934c9d01f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  repathTime: 1
 --- !u!114 &7909432522581620232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,8 +167,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  pathFeeder: {fileID: 0}
-  currentWaypoint: {fileID: 0}
 --- !u!114 &4348241708062128446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,6 +180,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
+--- !u!114 &5332760683241775515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b04f08b6213d640b7f98539c619539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointReachedRadius: 2
+  target: {fileID: 0}
 --- !u!1 &105660
 GameObject:
   m_ObjectHideFlags: 0

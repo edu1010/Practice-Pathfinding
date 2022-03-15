@@ -96,13 +96,6 @@ namespace FSM
                     break;
                 case State.FOLLOWING:
                     pathfollowing.enabled = false;
-                    // pathFeeder.enabled = false;
-                    //pathFeeder.OnPathComplete(pathfollowing.path);
-                    if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) < blackboard.pointReachedRadius)
-                    {
-                        ChangeState(State.TERMINATED);
-                        break;
-                    }
                     break;
                 case State.TERMINATED:
                     break;
