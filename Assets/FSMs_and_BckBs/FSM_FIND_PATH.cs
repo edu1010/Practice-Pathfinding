@@ -120,7 +120,8 @@ namespace FSM
                     //pathFeeder.target = currentTar;
                     break;
                 case State.TERMINATED:
-
+                    blackboard.SetTargetToWander();//REVISAR QUE HACER NO SE SI SIEMRPRE AHI QUE IR A WANDER
+                    ChangeState(State.GENERATING);
                     break;
             }
 
