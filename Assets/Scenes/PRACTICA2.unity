@@ -633,7 +633,6 @@ GameObject:
   - component: {fileID: 58812951}
   - component: {fileID: 58812950}
   - component: {fileID: 58812953}
-  - component: {fileID: 58812952}
   - component: {fileID: 58812954}
   - component: {fileID: 58812955}
   - component: {fileID: 58812956}
@@ -764,20 +763,6 @@ MonoBehaviour:
   closerSeedDetectionRadius: 80
   randomSeedDetectionRadius: 125
   eggDetectionRadiusWhileReachingSeed: 25
---- !u!114 &58812952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 58812940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f754f3ab961af24d8ee04934c9d01f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 1511527211}
-  repathTime: 1
 --- !u!114 &58812953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -834,8 +819,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  pathFeeder: {fileID: 0}
-  currentWaypoint: {fileID: 0}
 --- !u!114 &58812956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -849,6 +832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointReachedRadius: 3
+  target: {fileID: 0}
 --- !u!1 &68692724
 GameObject:
   m_ObjectHideFlags: 0
@@ -5599,6 +5583,12 @@ GameObject:
   - component: {fileID: 680906811}
   - component: {fileID: 680906810}
   - component: {fileID: 680906809}
+  - component: {fileID: 680906817}
+  - component: {fileID: 680906816}
+  - component: {fileID: 680906815}
+  - component: {fileID: 680906814}
+  - component: {fileID: 680906813}
+  - component: {fileID: 680906812}
   m_Layer: 0
   m_Name: Lady_02
   m_TagString: Untagged
@@ -5693,6 +5683,109 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 200}
+--- !u!114 &680906812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680906802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d0709c4899f5f44a2625cc345e6ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+--- !u!114 &680906813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680906802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7b98fbfeb9c5cb4eb5f3da740e8e84d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+--- !u!114 &680906814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680906802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b04f08b6213d640b7f98539c619539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointReachedRadius: 2
+  target: {fileID: 0}
+--- !u!114 &680906815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680906802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
+--- !u!114 &680906816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680906802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f9c3d0ff5593443b574cf61a785d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationalPolicy: 1
+  wayPointReachedRadius: 1
+  currentWaypointIndex: 0
+--- !u!114 &680906817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680906802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92255f029addf2849b3c0b8e1a49ced9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reachedObjectRadius: 2
+  target: {fileID: 0}
+  closerEggDetectionRadius: 50
+  randomEggDetectionRadius: 180
+  eggDetectionRadiusWhileReachingAnother: 50
+  closerSeedDetectionRadius: 80
+  randomSeedDetectionRadius: 125
+  eggDetectionRadiusWhileReachingSeed: 25
 --- !u!1 &688134023
 GameObject:
   m_ObjectHideFlags: 0
@@ -13056,6 +13149,12 @@ GameObject:
   - component: {fileID: 1736953992}
   - component: {fileID: 1736953991}
   - component: {fileID: 1736953990}
+  - component: {fileID: 1736953998}
+  - component: {fileID: 1736953997}
+  - component: {fileID: 1736953996}
+  - component: {fileID: 1736953995}
+  - component: {fileID: 1736953994}
+  - component: {fileID: 1736953993}
   m_Layer: 0
   m_Name: Lady_01
   m_TagString: Untagged
@@ -13150,6 +13249,109 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1736953993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736953983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d0709c4899f5f44a2625cc345e6ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+--- !u!114 &1736953994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736953983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7b98fbfeb9c5cb4eb5f3da740e8e84d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+--- !u!114 &1736953995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736953983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b04f08b6213d640b7f98539c619539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointReachedRadius: 2
+  target: {fileID: 0}
+--- !u!114 &1736953996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736953983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
+--- !u!114 &1736953997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736953983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f9c3d0ff5593443b574cf61a785d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationalPolicy: 1
+  wayPointReachedRadius: 1
+  currentWaypointIndex: 0
+--- !u!114 &1736953998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736953983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92255f029addf2849b3c0b8e1a49ced9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reachedObjectRadius: 2
+  target: {fileID: 0}
+  closerEggDetectionRadius: 50
+  randomEggDetectionRadius: 180
+  eggDetectionRadiusWhileReachingAnother: 50
+  closerSeedDetectionRadius: 80
+  randomSeedDetectionRadius: 125
+  eggDetectionRadiusWhileReachingSeed: 25
 --- !u!1 &1740430494
 GameObject:
   m_ObjectHideFlags: 0

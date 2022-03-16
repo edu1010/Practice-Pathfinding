@@ -105,7 +105,7 @@ namespace FSM
                     fsm_findPath.Exit();
                     fsm_findPath.ReEnter();
                     child.transform.parent = null;
-                    definitiveExitPoint = posibleExitPoints[Random.Range(0, posibleExitPoints.Length)];
+                    definitiveExitPoint = posibleExitPoints[Random.Range(0, posibleExitPoints.Length-1)];
                    // fsm_findPath.currentWaypoint = definitiveExitPoint;
                     findPathBlackboard.target = definitiveExitPoint;
                     break;
