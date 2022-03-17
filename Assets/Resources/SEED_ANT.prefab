@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationalPolicy: 1
-  closeEnoughRadius: 5
+  closeEnoughRadius: 2
   slowDownRadius: 20
   timeToDesiredSpeed: 0.1
   target: {fileID: 0}

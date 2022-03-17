@@ -11,7 +11,6 @@ public class LADYBUG_BLACKBOARD : MonoBehaviour
     public float closerEggDetectionRadius = 50.0f;
     public float randomEggDetectionRadius = 180.0f;
     public float eggDetectionRadiusWhileReachingAnother = 50.0f;
-
     [Header("Seed")]
     public float closerSeedDetectionRadius = 80.0f;
     public float randomSeedDetectionRadius = 125.0f;

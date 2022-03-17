@@ -7,7 +7,6 @@ namespace FSM
 {
     [RequireComponent(typeof(Seeker))]
     [RequireComponent(typeof(FIND_PATH_BLACKBOARD))]
-    [RequireComponent(typeof(Arrive))]
     [RequireComponent(typeof(Seek))]
     public class FSM_FIND_PATH : FiniteStateMachine
     {
@@ -16,25 +15,21 @@ namespace FSM
         public State currentState = State.INITIAL;
 
         FIND_PATH_BLACKBOARD blackboard;
-        PathFollowing pathfollowing;
        // public GameObject currentWaypoint;//Esto lo usamos de target entiendo?
         private Seeker seeker;
         private Path currentPath;
         private int index = 0;
-        Arrive arrive;
         Seek seek;
+        bool lastPoint = false;
         // Start is called before the first frame update
-        void Start()
+        void Awake()
         {
             //seeker = GetComponent<Seeker>();
-            pathfollowing = GetComponent<PathFollowing>();
             blackboard = GetComponent<FIND_PATH_BLACKBOARD>();
             seeker = GetComponent<Seeker>();
-            arrive = GetComponent<Arrive>();//last point only
             seek = GetComponent<Seek>();//the rest of the points
             GameObject surrogate_target = new GameObject();
             seek.target = Instantiate(surrogate_target);
-            arrive.target = surrogate_target;
 
         }
 
@@ -60,29 +55,29 @@ namespace FSM
                 case State.GENERATING:
                     break;
                 case State.FOLLOWING:
+                    if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) <= blackboard.pointReachedRadius) //poner una  variable para pointReachedRadius
+                    {
+                        ChangeState(State.TERMINATED);
+                        break;
+                    }
                     if (currentPath.vectorPath.Count <= 1)
                     {
                         ChangeState(State.GENERATING);
-                        break;
-                    }
-                    Debug.Log("index " + index + " max " + currentPath.vectorPath.Count);
-                    if (currentPath.vectorPath.Count-1 == index)
-                    {
-                        ChangeState(State.TERMINATED);
                         break;
                     }
                     float distance = (transform.position - currentPath.vectorPath[index]).magnitude;
                     if (distance <= blackboard.pointReachedRadius)
                     {
                         index++;
+                        if(index>= currentPath.vectorPath.Count)
+                        {
+                            ChangeState(State.TERMINATED);
+                            break;
+                        }
                         seek.target.transform.position = currentPath.vectorPath[index];
                     }
 
-                    if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) <= blackboard.pointReachedRadius) //poner una  variable para pointReachedRadius
-                    {
-                        ChangeState(State.TERMINATED);
-                        break;
-                    }
+                    
                    /*profe:
                     * if (currentWaypointIndex == path.vectorPath.Count - 1)
                 // use arrive for the last waypoint
@@ -108,9 +103,9 @@ namespace FSM
                     break;
                 case State.FOLLOWING:
                     seek.enabled = false;
-                    arrive.enabled = false;
                     break;
                 case State.TERMINATED:
+                    blackboard.terminated = false;
                     break;
             }
 
@@ -123,16 +118,17 @@ namespace FSM
                 case State.GENERATING:
                     seeker.StartPath(this.transform.position, blackboard.target.transform.position, OnPathComplete);
                     break;
-                case State.FOLLOWING://ARRAIVE Y SEEK
-                    pathfollowing.path = currentPath;
+                case State.FOLLOWING:
+                    index = 0;
                     seek.enabled = true;
                     seek.target.transform.position = currentPath.vectorPath[index];
-                    //pathfollowing.enabled = true;
-                    index = 0;
+                    lastPoint = false;
+                    
                     break;
                 case State.TERMINATED:
-                    blackboard.SetTargetToWander()  ;//REVISAR QUE HACER NO SE SI SIEMRPRE AHI QUE IR A WANDER
-                    ChangeState(State.GENERATING);
+                    blackboard.terminated = true;
+                    //blackboard.SetTargetToWander();//REVISAR QUE HACER NO SE SI SIEMRPRE AHI QUE IR A WANDER
+                   // ChangeState(State.GENERATING);
                     break;
             }
 

@@ -6,14 +6,15 @@ public class FIND_PATH_BLACKBOARD : MonoBehaviour
 {
     GameObject[] wanderPoints;
     GameObject[] storePoints;
-    GameObject[] hachinPoints;
+    GameObject[] hatchingPoints;
     public float pointReachedRadius = 2.0f;
-    public GameObject target;
-    private void Start()
+    public GameObject target ;
+    public bool terminated = false;
+    private void Awake()
     {
         wanderPoints = GameObject.FindGameObjectsWithTag("WANDER_POINTS");
         storePoints = GameObject.FindGameObjectsWithTag("STORE_CHAMBER");
-        hachinPoints     = GameObject.FindGameObjectsWithTag("HATCHING_CHAMBER");
+        hatchingPoints     = GameObject.FindGameObjectsWithTag("HATCHING_CHAMBER");
     }
 
     public GameObject GetRandomWanderPoint()
@@ -24,7 +25,7 @@ public class FIND_PATH_BLACKBOARD : MonoBehaviour
         return storePoints[Random.Range(0, storePoints.Length)];
     }
     public GameObject GetRandomHachinPoint() { 
-        return hachinPoints[Random.Range(0, hachinPoints.Length)];
+        return hatchingPoints[Random.Range(0, hatchingPoints.Length)];
     }
 
     public void SetTargetToStoreChamber()
@@ -32,7 +33,7 @@ public class FIND_PATH_BLACKBOARD : MonoBehaviour
         // currentWaypoint =  blackboard.GetRandomStorePont();
         target = GetRandomStorePont();
     }
-    public void SetTargetToHachinChamber()
+    public void SetTargetToHatchingChamber()
     {
         //currentWaypoint = blackboard.GetRandomHachinPoint();
         target = GetRandomHachinPoint();

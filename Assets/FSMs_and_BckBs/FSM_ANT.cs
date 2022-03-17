@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Pathfinding;
 namespace FSM
 {
     [RequireComponent(typeof(FSM_FIND_PATH))]
@@ -22,19 +22,13 @@ namespace FSM
         GameObject child;
 
         // Start is called before the first frame update
-        void Start()
+        void Awake()
         {
             fsm_findPath = GetComponent<FSM_FIND_PATH>();
             posibleExitPoints = GameObject.FindGameObjectsWithTag("EXITPOINT");
             child = gameObject.transform.GetChild(0).gameObject;
             findPathBlackboard = GetComponent<FIND_PATH_BLACKBOARD>();
 
-            /*
-            foreach(GameObject exitPoint in GameObject.FindGameObjectsWithTag("EXITPOINT"))
-            {
-                posibleExitPoints.Add(exitPoint);
-            }
-            */
         }
 
         public override void ReEnter()
@@ -64,10 +58,10 @@ namespace FSM
                     }
                     break;
                 case State.GO_TO_EXIT_POINT:
-                    if(SensingUtils.DistanceToTarget(gameObject, definitiveExitPoint) <= findPathBlackboard.pointReachedRadius) //blackboard
+                    if(SensingUtils.DistanceToTarget(gameObject, definitiveExitPoint) <= findPathBlackboard.pointReachedRadius || findPathBlackboard.terminated) //blackboard
                     {
                         Debug.Log("Me destruyo");
-                        Destroy(gameObject);
+                        Destroy(transform.gameObject);
                         break;
                     }
                     break;
@@ -83,6 +77,18 @@ namespace FSM
                     break;
                 case State.GO_TO_DELIVERY_POINT:
                     fsm_findPath.Exit();
+                    if (child.tag.Equals("SEED_ON_ANT"))
+                    {
+                        child.tag = "SEED";
+                    }
+                    else
+                    {
+                        child.tag = "EGG";
+                    }
+                    child.transform.parent = null;
+                    GraphNode node = AstarPath.active.GetNearest(child.transform.position,NNConstraint.Default).node;
+                    child.transform.position = (Vector3)node.position;
+
                     break;
                 case State.GO_TO_EXIT_POINT:
                     fsm_findPath.Exit();
@@ -97,16 +103,13 @@ namespace FSM
                 case State.GO_TO_DELIVERY_POINT:
                     deliveryPoint = findPathBlackboard.GetRandomWanderPoint();
                     findPathBlackboard.target = deliveryPoint;
-                    fsm_findPath.Exit();
+
                     fsm_findPath.ReEnter();
                     break;
                 case State.GO_TO_EXIT_POINT:
                     definitiveExitPoint = posibleExitPoints[Random.Range(0, posibleExitPoints.Length)];
                     findPathBlackboard.target = definitiveExitPoint;
-                    fsm_findPath.Exit();
                     fsm_findPath.ReEnter();
-                    child.transform.parent = null;
-                   
                     break;
             }
 

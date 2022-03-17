@@ -8,7 +8,7 @@ public class AntSpawner : MonoBehaviour {
     public GameObject seed_ant;
 
     float timer;
-    float probabilitySpawnASeed = 0.8f;
+    public float probabilitySpawnASeed = 0.8f;
 
 	// Use this for initialization
 	void Start () 
