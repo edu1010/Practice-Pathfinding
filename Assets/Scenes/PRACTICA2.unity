@@ -833,8 +833,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b04f08b6213d640b7f98539c619539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointReachedRadius: 3
+  pointReachedRadius: 2
   target: {fileID: 0}
+  terminated: 0
 --- !u!114 &58812957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -848,7 +849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationalPolicy: 1
-  closeEnoughRadius: 5
+  closeEnoughRadius: 2
   slowDownRadius: 20
   timeToDesiredSpeed: 0.1
   target: {fileID: 0}
@@ -5758,6 +5759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointReachedRadius: 2
   target: {fileID: 0}
+  terminated: 0
 --- !u!114 &680906815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5834,7 +5836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationalPolicy: 1
-  closeEnoughRadius: 5
+  closeEnoughRadius: 2
   slowDownRadius: 20
   timeToDesiredSpeed: 0.1
   target: {fileID: 0}
@@ -13357,6 +13359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointReachedRadius: 2
   target: {fileID: 0}
+  terminated: 0
 --- !u!114 &1736953996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13433,7 +13436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationalPolicy: 1
-  closeEnoughRadius: 5
+  closeEnoughRadius: 2
   slowDownRadius: 20
   timeToDesiredSpeed: 0.1
   target: {fileID: 0}

@@ -95,6 +95,7 @@ namespace FSM
                     if (SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.eggDetectionRadiusWhileReachingSeed))
                     {
                         blackboard.target = SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.eggDetectionRadiusWhileReachingSeed);
+                        findPathBlackboard.target = blackboard.target;
                         ChangeState(State.REACH_EGG);
                         break;
                     }
@@ -116,6 +117,7 @@ namespace FSM
                     if (SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.eggDetectionRadiusWhileReachingAnother))
                     {
                         blackboard.target = SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.eggDetectionRadiusWhileReachingAnother);
+                        findPathBlackboard.target = blackboard.target;
                     }
                     break;
                 case State.GO_TO_HATCHING_CHAMBER://ir a dejar el huevo
