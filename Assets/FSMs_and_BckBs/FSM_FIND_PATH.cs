@@ -30,7 +30,6 @@ namespace FSM
             seek = GetComponent<Seek>();//the rest of the points
             GameObject surrogate_target = new GameObject();
             seek.target = Instantiate(surrogate_target);
-
         }
 
         public override void ReEnter()
