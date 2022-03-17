@@ -636,6 +636,8 @@ GameObject:
   - component: {fileID: 58812954}
   - component: {fileID: 58812955}
   - component: {fileID: 58812956}
+  - component: {fileID: 58812957}
+  - component: {fileID: 58812958}
   m_Layer: 0
   m_Name: Lady_03
   m_TagString: Untagged
@@ -770,7 +772,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58812940}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47f9c3d0ff5593443b574cf61a785d14, type: 3}
   m_Name: 
@@ -833,6 +835,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointReachedRadius: 3
   target: {fileID: 0}
+--- !u!114 &58812957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58812940}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47dcfdf0319fb374ea2b04e8621fa0d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationalPolicy: 1
+  closeEnoughRadius: 5
+  slowDownRadius: 20
+  timeToDesiredSpeed: 0.1
+  target: {fileID: 0}
+--- !u!114 &58812958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58812940}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a7351400fffc349b5c0699488d25c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  rotationalPolicy: 1
 --- !u!1 &68692724
 GameObject:
   m_ObjectHideFlags: 0
@@ -5589,6 +5622,8 @@ GameObject:
   - component: {fileID: 680906814}
   - component: {fileID: 680906813}
   - component: {fileID: 680906812}
+  - component: {fileID: 680906818}
+  - component: {fileID: 680906819}
   m_Layer: 0
   m_Name: Lady_02
   m_TagString: Untagged
@@ -5758,7 +5793,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 680906802}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47f9c3d0ff5593443b574cf61a785d14, type: 3}
   m_Name: 
@@ -5786,6 +5821,37 @@ MonoBehaviour:
   closerSeedDetectionRadius: 80
   randomSeedDetectionRadius: 125
   eggDetectionRadiusWhileReachingSeed: 25
+--- !u!114 &680906818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680906802}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47dcfdf0319fb374ea2b04e8621fa0d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationalPolicy: 1
+  closeEnoughRadius: 5
+  slowDownRadius: 20
+  timeToDesiredSpeed: 0.1
+  target: {fileID: 0}
+--- !u!114 &680906819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680906802}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a7351400fffc349b5c0699488d25c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  rotationalPolicy: 1
 --- !u!1 &688134023
 GameObject:
   m_ObjectHideFlags: 0
@@ -13155,6 +13221,8 @@ GameObject:
   - component: {fileID: 1736953995}
   - component: {fileID: 1736953994}
   - component: {fileID: 1736953993}
+  - component: {fileID: 1736953999}
+  - component: {fileID: 1736954000}
   m_Layer: 0
   m_Name: Lady_01
   m_TagString: Untagged
@@ -13324,7 +13392,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736953983}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47f9c3d0ff5593443b574cf61a785d14, type: 3}
   m_Name: 
@@ -13352,6 +13420,37 @@ MonoBehaviour:
   closerSeedDetectionRadius: 80
   randomSeedDetectionRadius: 125
   eggDetectionRadiusWhileReachingSeed: 25
+--- !u!114 &1736953999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736953983}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47dcfdf0319fb374ea2b04e8621fa0d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationalPolicy: 1
+  closeEnoughRadius: 5
+  slowDownRadius: 20
+  timeToDesiredSpeed: 0.1
+  target: {fileID: 0}
+--- !u!114 &1736954000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736953983}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a7351400fffc349b5c0699488d25c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  rotationalPolicy: 1
 --- !u!1 &1740430494
 GameObject:
   m_ObjectHideFlags: 0

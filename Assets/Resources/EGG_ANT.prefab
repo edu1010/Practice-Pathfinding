@@ -11,11 +11,12 @@ GameObject:
   - component: {fileID: 428910}
   - component: {fileID: 21217620}
   - component: {fileID: 11491196}
-  - component: {fileID: 8623521736206590707}
   - component: {fileID: 7909432522581620232}
   - component: {fileID: 1913451396762331607}
   - component: {fileID: 4348241708062128446}
   - component: {fileID: 5332760683241775515}
+  - component: {fileID: 8724394767410702513}
+  - component: {fileID: 5226670021101886496}
   m_Layer: 0
   m_Name: EGG_ANT
   m_TagString: Untagged
@@ -111,21 +112,6 @@ MonoBehaviour:
   orientation: 0
   linearVelocity: {x: 0, y: 0, z: 0}
   angularSpeed: 0
---- !u!114 &8623521736206590707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47f9c3d0ff5593443b574cf61a785d14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationalPolicy: 1
-  wayPointReachedRadius: 1
-  currentWaypointIndex: 0
 --- !u!114 &7909432522581620232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,6 +180,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointReachedRadius: 2
   target: {fileID: 0}
+--- !u!114 &8724394767410702513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100018}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47dcfdf0319fb374ea2b04e8621fa0d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationalPolicy: 1
+  closeEnoughRadius: 5
+  slowDownRadius: 20
+  timeToDesiredSpeed: 0.1
+  target: {fileID: 0}
+--- !u!114 &5226670021101886496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100018}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a7351400fffc349b5c0699488d25c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  rotationalPolicy: 1
 --- !u!1 &105660
 GameObject:
   m_ObjectHideFlags: 0
