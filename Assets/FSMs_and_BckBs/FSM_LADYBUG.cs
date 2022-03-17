@@ -106,7 +106,8 @@ namespace FSM
                         break;
                     }
                     //reached egg
-                    if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) <= blackboard.reachedObjectRadius || findPathBlackboard.terminated)
+                   // if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) <= blackboard.reachedObjectRadius || findPathBlackboard.terminated)
+                    if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) <= blackboard.reachedObjectRadius )
                     {
                         ChangeState(State.GO_TO_HATCHING_CHAMBER);
                         break;
@@ -118,7 +119,7 @@ namespace FSM
                     }
                     break;
                 case State.GO_TO_HATCHING_CHAMBER://ir a dejar el huevo
-                    if (SensingUtils.DistanceToTarget(gameObject, findPathBlackboard.target) <= blackboard.reachedObjectRadius || findPathBlackboard.terminated)
+                    if (SensingUtils.DistanceToTarget(gameObject, findPathBlackboard.target) <= blackboard.reachedObjectRadius)
                     {
                         ChangeState(State.WANDER);
                         break;
@@ -133,12 +134,13 @@ namespace FSM
                         blackboard.target.tag = "SEED";
                         blackboard.target.transform.parent = null;
                         GraphNode node = AstarPath.active.GetNearest(blackboard.target.transform.position, NNConstraint.Default).node;
-                        blackboard.target.transform.position = (Vector3)node.position;
+                        blackboard.target.transform.position = (Vector3)node.position;//dejar semilla
                         blackboard.target = egg;
+                        findPathBlackboard.target = blackboard.target;
                         ChangeState(State.REACH_EGG);
                         break;
                     }
-                    if (SensingUtils.DistanceToTarget(gameObject, findPathBlackboard.target) <= blackboard.reachedObjectRadius || findPathBlackboard.terminated)
+                    if (SensingUtils.DistanceToTarget(gameObject, findPathBlackboard.target) <= blackboard.reachedObjectRadius)
                     {
                         ChangeState(State.WANDER);
                         break;
@@ -160,8 +162,12 @@ namespace FSM
                 case State.REACH_EGG:
                     break;
                 case State.GO_TO_STORE_CHAMBER:
-                    blackboard.target.transform.parent = null;
-                    blackboard.target.tag = "REACHED";
+                    if (!(newState.Equals(State.REACH_EGG)))
+                    {
+                        blackboard.target.tag = "REACHED";
+                        blackboard.target.transform.parent = null;
+                    }
+                   
                     break;
                 case State.GO_TO_HATCHING_CHAMBER:
                     blackboard.target.transform.parent = null;
