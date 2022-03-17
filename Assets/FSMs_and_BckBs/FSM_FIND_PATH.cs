@@ -32,8 +32,9 @@ namespace FSM
             seeker = GetComponent<Seeker>();
             arrive = GetComponent<Arrive>();//last point only
             seek = GetComponent<Seek>();//the rest of the points
-            GameObject g = new GameObject();
-            seek.target = Instantiate(g);
+            GameObject surrogate_target = new GameObject();
+            seek.target = Instantiate(surrogate_target);
+            arrive.target = surrogate_target;
 
         }
 
@@ -45,7 +46,6 @@ namespace FSM
 
         public override void Exit()
         {
-            pathfollowing.enabled = false;
             base.Exit();
         }
 
@@ -60,6 +60,17 @@ namespace FSM
                 case State.GENERATING:
                     break;
                 case State.FOLLOWING:
+                    if (currentPath.vectorPath.Count <= 1)
+                    {
+                        ChangeState(State.GENERATING);
+                        break;
+                    }
+                    Debug.Log("index " + index + " max " + currentPath.vectorPath.Count);
+                    if (currentPath.vectorPath.Count-1 == index)
+                    {
+                        ChangeState(State.TERMINATED);
+                        break;
+                    }
                     float distance = (transform.position - currentPath.vectorPath[index]).magnitude;
                     if (distance <= blackboard.pointReachedRadius)
                     {
@@ -72,11 +83,12 @@ namespace FSM
                         ChangeState(State.TERMINATED);
                         break;
                     }
-                    if (currentPath.vectorPath.Count == index) 
-                    {
-                        ChangeState(State.TERMINATED);
-                        break;
-                    }
+                   /*profe:
+                    * if (currentWaypointIndex == path.vectorPath.Count - 1)
+                // use arrive for the last waypoint
+                return Arrive.GetSteering(ownKS, SURROGATE_TARGET, wayPointReachedRadius/2, wayPointReachedRadius*2);
+            else 
+			    return Seek.GetSteering(ownKS, SURROGATE_TARGET);*/
                     break;
                 case State.TERMINATED:
 
@@ -96,6 +108,7 @@ namespace FSM
                     break;
                 case State.FOLLOWING:
                     seek.enabled = false;
+                    arrive.enabled = false;
                     break;
                 case State.TERMINATED:
                     break;

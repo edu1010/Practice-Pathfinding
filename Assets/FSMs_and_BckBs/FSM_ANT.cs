@@ -101,11 +101,12 @@ namespace FSM
                     fsm_findPath.ReEnter();
                     break;
                 case State.GO_TO_EXIT_POINT:
+                    definitiveExitPoint = posibleExitPoints[Random.Range(0, posibleExitPoints.Length)];
+                    findPathBlackboard.target = definitiveExitPoint;
                     fsm_findPath.Exit();
                     fsm_findPath.ReEnter();
                     child.transform.parent = null;
-                    definitiveExitPoint = posibleExitPoints[Random.Range(0, posibleExitPoints.Length)];
-                    findPathBlackboard.target = definitiveExitPoint;
+                   
                     break;
             }
 
