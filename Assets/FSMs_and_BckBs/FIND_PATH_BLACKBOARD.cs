@@ -30,17 +30,14 @@ public class FIND_PATH_BLACKBOARD : MonoBehaviour
 
     public void SetTargetToStoreChamber()
     {
-        // currentWaypoint =  blackboard.GetRandomStorePont();
         target = GetRandomStorePont();
     }
     public void SetTargetToHatchingChamber()
     {
-        //currentWaypoint = blackboard.GetRandomHachinPoint();
         target = GetRandomHachinPoint();
     }
     public void SetTargetToWander()
     {
-        //currentWaypoint = blackboard.GetRandomHachinPoint();
         target = GetRandomWanderPoint();
     }
 }
