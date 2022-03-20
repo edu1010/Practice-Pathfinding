@@ -13,7 +13,6 @@ public class AntSpawner : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
     {
-        // get the prefabs
         timer = 0.0f;
 	}
 	
