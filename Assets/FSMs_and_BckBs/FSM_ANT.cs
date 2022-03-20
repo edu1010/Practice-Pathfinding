@@ -15,9 +15,8 @@ namespace FSM
 
         FSM_FIND_PATH fsm_findPath;
         FIND_PATH_BLACKBOARD findPathBlackboard;
-        GameObject deliveryPoint;
-        //List<GameObject> posibleExitPoints;
-        GameObject[] posibleExitPoints; //blackboard
+        GameObject deliveryPoint;        
+        GameObject[] posibleExitPoints; 
         GameObject definitiveExitPoint;
         GameObject child;
 
@@ -51,14 +50,14 @@ namespace FSM
                     ChangeState(State.GO_TO_DELIVERY_POINT);
                     break;
                 case State.GO_TO_DELIVERY_POINT:
-                    if (SensingUtils.DistanceToTarget(gameObject, deliveryPoint) <= findPathBlackboard.pointReachedRadius)  //blackboard
+                    if (SensingUtils.DistanceToTarget(gameObject, deliveryPoint) <= findPathBlackboard.pointReachedRadius)  
                     {
                         ChangeState(State.GO_TO_EXIT_POINT);
                         break;
                     }
                     break;
                 case State.GO_TO_EXIT_POINT:
-                    if(SensingUtils.DistanceToTarget(gameObject, definitiveExitPoint) <= findPathBlackboard.pointReachedRadius || findPathBlackboard.terminated) //blackboard
+                    if(SensingUtils.DistanceToTarget(gameObject, definitiveExitPoint) <= findPathBlackboard.pointReachedRadius || findPathBlackboard.terminated) 
                     {
                         Debug.Log("Me destruyo");
                         Destroy(transform.gameObject);

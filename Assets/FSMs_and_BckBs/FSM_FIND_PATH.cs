@@ -50,7 +50,7 @@ namespace FSM
                 case State.GENERATING:
                     break;
                 case State.FOLLOWING:
-                    if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) <= blackboard.pointReachedRadius) //poner una  variable para pointReachedRadius
+                    if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) <= blackboard.pointReachedRadius) 
                     {
                         ChangeState(State.TERMINATED);
                         break;

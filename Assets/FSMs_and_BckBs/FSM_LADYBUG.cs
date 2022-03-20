@@ -106,8 +106,7 @@ namespace FSM
                         ChangeState(State.WANDER);
                         break;
                     }
-                    //reached egg
-                   // if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) <= blackboard.reachedObjectRadius || findPathBlackboard.terminated)
+                    
                     if (SensingUtils.DistanceToTarget(gameObject, blackboard.target) <= blackboard.reachedObjectRadius )
                     {
                         ChangeState(State.GO_TO_HATCHING_CHAMBER);
@@ -120,7 +119,7 @@ namespace FSM
                         findPathBlackboard.target = blackboard.target;
                     }
                     break;
-                case State.GO_TO_HATCHING_CHAMBER://ir a dejar el huevo
+                case State.GO_TO_HATCHING_CHAMBER:
                     if (SensingUtils.DistanceToTarget(gameObject, findPathBlackboard.target) <= blackboard.reachedObjectRadius)
                     {
                         ChangeState(State.WANDER);
@@ -128,7 +127,7 @@ namespace FSM
                     }
 
                     break;
-                case State.GO_TO_STORE_CHAMBER://ir a dejar la semilla
+                case State.GO_TO_STORE_CHAMBER:
 
                     egg = (SensingUtils.FindInstanceWithinRadius(gameObject, "EGG", blackboard.eggDetectionRadiusWhileReachingSeed));
                     if (egg!=null)
@@ -136,7 +135,7 @@ namespace FSM
                         blackboard.target.tag = "SEED";
                         blackboard.target.transform.parent = null;
                         GraphNode node = AstarPath.active.GetNearest(blackboard.target.transform.position, NNConstraint.Default).node;
-                        blackboard.target.transform.position = (Vector3)node.position;//dejar semilla
+                        blackboard.target.transform.position = (Vector3)node.position;
                         blackboard.target = egg;
                         findPathBlackboard.target = blackboard.target;
                         ChangeState(State.REACH_EGG);
@@ -193,13 +192,13 @@ namespace FSM
                 case State.GO_TO_STORE_CHAMBER:
                     blackboard.target.tag = "SEED_ON_LADYBUG";
                     blackboard.target.transform.parent = transform;
-                    findPathBlackboard.SetTargetToStoreChamber();//target store
+                    findPathBlackboard.SetTargetToStoreChamber();
                     fsm_findPath.ReEnter();
                     break;
                 case State.GO_TO_HATCHING_CHAMBER:
                     blackboard.target.tag = "EGG_ON_LADYBUG";
                     blackboard.target.transform.parent = transform;
-                    findPathBlackboard.SetTargetToHatchingChamber();//target hachin
+                    findPathBlackboard.SetTargetToHatchingChamber();
                     fsm_findPath.ReEnter();
                     break;
             }
